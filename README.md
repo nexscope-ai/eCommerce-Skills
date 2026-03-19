@@ -10,17 +10,43 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
+| [product-description-generator](./product-description-generator/) | Generate platform-optimized product copy (title, bullets, description, tags) using competitor research + keyword scoring + FABE copywriting. Two modes: (A) Create from scratch with optional competitor analysis, (B) Optimize existing listing with keyword gap analysis. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. No API key needed. | ✅ Available |
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — analyzes your product and margins, recommends the right ad platforms (Google Ads, Meta Ads, TikTok Ads), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. Two modes: Build from scratch or Optimize existing campaigns. No API key needed. | ✅ Available |
 
 ## Quick Install
 
 ```bash
+# Install all skills
+npx skills add nexscope-ai/eCommerce-Skills -g
+```
+
+```bash
+# Install a specific skill
+npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
 ```
 
 ## Usage
 
 Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
+
+### 📝 product-description-generator
+
+```
+Create a listing for my yoga mat on eBay UK.
+Competitors: https://www.ebay.co.uk/itm/123456789
+My product: 6mm TPE, non-slip, carrying strap included. Brand: ZenMat. Tone: Friendly.
+```
+
+```
+Optimize this Shopify listing: https://mystore.com/products/portable-blender
+Find keyword gaps and rewrite.
+```
+
+```
+Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
+Target audience: gift buyers. Brand: WickCraft. Tone: Luxury.
+```
 
 ### 📢 ecommerce-ppc-strategy-planner
 
@@ -44,7 +70,7 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 |:-:|----------|:------:|:------:|
 | 🔍 | **Product Research** | 8 | 🔜 Coming soon |
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
+| 📝 | **Listing Optimization** | 8 | ✅ 1 available |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
@@ -53,7 +79,7 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
-**Current: 1 skill available · 66 more planned**
+**Current: 2 skills available · 65 more planned**
 
 ## Why Free?
 
