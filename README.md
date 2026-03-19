@@ -20,7 +20,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
 | 📝 | **Listing Optimization** | 7 | 🔜 Coming soon |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
-| 📢 | **Advertising** | 7 | 🔜 Coming soon |
+| 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
 | 🛒 | **E-Commerce Marketing** | 7 | 🔜 Coming soon |
 | 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
