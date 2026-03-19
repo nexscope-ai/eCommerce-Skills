@@ -1,146 +1,119 @@
-# E-Commerce Skills
+# 📊 E-Commerce Skills by Nexscope
 
-OpenClaw skills for e-commerce businesses — **cross-platform, multi-marketplace, and universal tools** that work beyond Amazon.
+Free AI agent skills for e-commerce businesses — cross-platform tools for pricing, PPC strategy, supply chain, brand protection & more.
 
-Built by [Nexscope](https://nexscope.ai) — The AI command center for online sellers.
+Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and any agent that supports the [Skills format](https://skills.sh).
 
+> **🔍 Need Amazon-specific tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA, Amazon PPC, listing optimization, and keyword research.
 
-**🚨 Need Amazon-specific tools?** Check out our specialized [Amazon Skills repository](https://github.com/nexscope-ai/Amazon-Skills) for Amazon FBA, PPC, listing optimization, and seller-focused tools.
-
----
-
-## 🚀 Quick Install
-
-```bash
-# Install individual skills
-npx skills add nexscope-ai/ecommerce-skills --skill profit-margin-calculator
-npx skills add nexscope-ai/ecommerce-skills --skill etsy-seo
-npx skills add nexscope-ai/ecommerce-skills --skill supply-chain-optimization
-
-# Install all skills (coming soon)
-npx skills add nexscope-ai/ecommerce-skills --all
-```
-
-## 📦 Available Skills
-
-### 🔍 Product Research & Analysis
-- **`profit-margin-calculator`** — Calculate profit margins across any platform
-- **`product-differentiation`** — Analyze market positioning opportunities  
-- **`dropshipping-product-research`** — Find winning products for dropshipping
-- **`ecommerce-keyword-research`** — Cross-platform keyword discovery
-- **`market-gap-analysis`** — Identify underserved market segments
-
-### 🕵️ Competitor Intelligence  
-- **`ecommerce-competitor-analysis`** — Multi-platform competitor research
-- **`competitor-price-analysis`** — Track competitive pricing across channels
-- **`product-review-analysis`** — Extract insights from customer feedback
-
-### 📝 Content & SEO
-- **`product-description-generator`** — Create compelling product copy
-- **`product-page-seo`** — Optimize product pages for search
-- **`ecommerce-seo-tool`** — Technical SEO audits for e-commerce sites
-- **`product-title-optimization`** — Craft high-converting product titles
+## Available Skills
 
 ### 💰 Pricing & Financial Planning
-- **`ecommerce-business-plan`** — Generate comprehensive business plans
-- **`tariff-calculator`** — Calculate import duties and landed costs
-- **`ecommerce-pricing-strategy`** — Data-driven pricing recommendations
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [profit-margin-calculator](./profit-margin-calculator/) | Calculate profit margins with all costs included — COGS, shipping, platform fees, returns, and advertising. Supports any e-commerce platform. Break-even analysis and pricing recommendations included. No API key needed. | ✅ Available |
+| tariff-calculator | Calculate import duties, customs fees, and total landed costs for cross-border e-commerce | 🔜 Coming soon |
+| ecommerce-pricing-strategy | Data-driven pricing recommendations based on competitor analysis and margin targets | 🔜 Coming soon |
 
 ### 📢 Marketing & Advertising
-- **`ecommerce-marketing-strategy`** — Omnichannel marketing blueprints
-- **`ecommerce-email-marketing`** — Automated email sequence generators
-- **`ecommerce-ppc`** — Cross-platform PPC campaign optimization
-- **`ecommerce-advertising`** — Multi-channel ad strategy planning
-- **`ecommerce-content-marketing`** — Content calendar and topic research
-- **`product-launch-strategy`** — End-to-end product launch planning
-- **`dtc-marketing`** — Direct-to-consumer marketing playbooks
-- **`ecommerce-social-media-marketing`** — Social commerce strategy
 
-### 🚀 Platform-Specific Growth
-- **`etsy-seo`** — Etsy listing and shop optimization
-- **`shopify-marketing`** — Shopify store growth strategies
-- **`walmart-listing-optimization`** — Walmart Marketplace listing optimization
-- **`google-shopping-optimization`** — Google Shopping feed optimization
-
-### 🛡️ Brand Protection & Monitoring
-- **`brand-protection`** — Monitor and protect intellectual property
-- **`brand-monitoring`** — Track brand mentions and sentiment
-- **`review-monitoring`** — Automated review tracking and analysis
-- **`social-media-monitor`** — Social media mention tracking
+| Skill | Description | Status |
+|-------|-------------|--------|
+| ecommerce-ppc | Cross-platform PPC strategy planner — recommends platforms (Google, Meta, TikTok), allocates budget, calculates ROAS targets, generates ad copy and creative briefs. No API key needed. | 🔜 Coming soon |
+| ecommerce-marketing-strategy | Omnichannel marketing blueprints for e-commerce growth | 🔜 Coming soon |
 
 ### 🏭 Operations & Logistics
-- **`supply-chain-optimization`** — End-to-end supply chain analysis
-- **`3pl-fulfillment`** — Third-party logistics provider comparison
-- **`warehouse-optimization`** — Inventory and fulfillment optimization
-- **`ecommerce-packaging`** — Packaging design and cost optimization
-- **`ecommerce-returns-management`** — Returns process optimization
-- **`cross-border-ecommerce`** — International expansion planning
 
-### 🛒 Conversion & Experience
-- **`ecommerce-personalization`** — Personalization strategy implementation
-- **`ecommerce-checkout-optimization`** — Checkout flow analysis and optimization
-- **`ecommerce-landing-page`** — Landing page optimization audits
-- **`ecommerce-customer-retention`** — Customer lifetime value optimization
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [supply-chain-optimization](./supply-chain-optimization/) | End-to-end supply chain analysis — supplier evaluation, lead time optimization, inventory planning, and cost reduction strategies. Works for any product type and fulfillment model. No API key needed. | ✅ Available |
+| 3pl-fulfillment | Compare third-party logistics providers by cost, speed, and coverage | 🔜 Coming soon |
 
----
+### 🛡️ Brand Protection & Monitoring
 
-## 🎯 Skill Categories
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [brand-protection](./brand-protection/) | Monitor and protect your intellectual property — trademark monitoring, counterfeit detection strategies, enforcement action plans, and platform-specific brand registry guidance. No API key needed. | ✅ Available |
+| brand-monitoring | Track brand mentions, sentiment, and reputation across the web | 🔜 Coming soon |
 
-| Category | Skills | Focus |
-|----------|:------:|-------|
-| **Product Research** | 5 | Finding and validating product opportunities |
-| **Competitor Analysis** | 3 | Understanding competitive landscape |
-| **Content & SEO** | 4 | Optimizing for search and conversion |
-| **Pricing & Finance** | 3 | Financial modeling and pricing strategy |
-| **Marketing** | 8 | Customer acquisition and retention |
-| **Platform Growth** | 4 | Platform-specific optimization |
-| **Brand Protection** | 4 | Monitoring and protecting brand assets |
-| **Operations** | 6 | Supply chain and fulfillment optimization |
-| **Conversion** | 4 | Optimizing customer experience and sales |
+## Quick Install
 
-**Total: 9 categories, 41 skills** *(planned)*
+### Install all skills
 
----
-
-## 🔧 For Developers
-
-### Skill Structure
-```
-skill-name/
-├── SKILL.md           # Main skill definition
-├── scripts/           # Helper scripts (optional)
-├── examples/          # Usage examples (optional) 
-└── assets/           # Images, data files (optional)
+```bash
+npx skills add nexscope-ai/eCommerce-Skills
 ```
 
-### Contributing
-1. Fork the repository
-2. Create a new skill directory
-3. Follow the [OpenClaw Skills specification](https://docs.openclaw.ai/skills)
-4. Submit a pull request
+### Install a specific skill
 
-### Skill Requirements
-- **Clear Input/Output**: Every skill must define what it takes and what it produces
-- **Actionable Results**: Output should be copy-paste ready or immediately actionable
-- **Platform Agnostic**: Should work across multiple e-commerce platforms where possible
-- **Well Documented**: Include usage examples and limitations
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator
+```
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization
+```
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection
+```
+
+### Install globally (recommended)
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills -g
+```
+
+## Usage
+
+Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
+
+### 💰 profit-margin-calculator
+```
+Calculate margins for my product: sells for $29.99, costs $6 to manufacture, $3.50 shipping, selling on Shopify with 2.9% + $0.30 transaction fee.
+```
+```
+Compare profit margins: sell on Amazon FBA ($34.99, fees ~35%) vs my own Shopify store ($34.99, fees ~5%).
+```
+
+### 🏭 supply-chain-optimization
+```
+I source products from 3 suppliers in China with 45-day lead times. Help me optimize my supply chain and reduce stockout risk.
+```
+```
+Analyze my supply chain: MOQ 500 units, $8/unit, 60-day production, 30-day shipping. Monthly sales ~200 units.
+```
+
+### 🛡️ brand-protection
+```
+I'm launching a new brand for pet accessories. Help me create a brand protection strategy.
+```
+```
+I found counterfeit versions of my product on 3 marketplaces. What's my enforcement action plan?
+```
+
+## Skill Categories
+
+| Category | Available | Planned | Focus |
+|----------|:---------:|:-------:|-------|
+| **Pricing & Finance** | 1 | 2 | Margin calculation, tariffs, pricing strategy |
+| **Marketing & Ads** | 0 | 2 | PPC strategy, omnichannel marketing |
+| **Operations** | 1 | 1 | Supply chain, fulfillment |
+| **Brand Protection** | 1 | 1 | IP protection, monitoring |
+
+**Current: 3 skills available · 6 more planned**
+
+## Why Free?
+
+These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
+
+For advanced features like real-time market data, automated monitoring, and AI-powered recommendations, check out **[Nexscope](https://github.com/nexscope-ai)** — AI-powered tools for e-commerce sellers.
+
+## License
+
+MIT
 
 ---
 
-## 🏢 About Nexscope
-
-We build AI-powered tools for e-commerce sellers worldwide. Our mission is to democratize access to advanced e-commerce intelligence and automation.
-
-- **Website**: [nexscope.ai](https://nexscope.ai)
-- **Skills Registry**: [ClawHub](https://clawhub.ai/nexscope-ai)
-- **Support**: [Discord](https://discord.gg/nexscope)
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-**Made with ❤️ for the e-commerce community**
+Built by **[Nexscope AI](https://github.com/nexscope-ai)** — AI-powered e-commerce intelligence for Google Ads, Meta, TikTok, Shopify, Etsy, Walmart, and more.
