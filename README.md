@@ -12,6 +12,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 |-------|-------------|--------|
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — recommends ad platforms (Google, Meta, TikTok), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. | ✅ Available |
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing strategy builder — covers paid ads, SEO, email/SMS, content, social media, influencers, and referral programs. Includes audience persona, competitive landscape, channel prioritization, budget allocation, and a 90-day action plan. | ✅ Available |
+| [product-description-generator](./product-description-generator/) | E-commerce product description generator for any platform. Generates optimized titles, bullet points, descriptions, and backend keywords using competitor research + keyword scoring + FABE copywriting. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
 
 ## Quick Install
 
@@ -21,6 +22,10 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-plann
 
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy-builder -g
+```
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
 ```
 
 ## Usage
@@ -50,6 +55,19 @@ Instagram followers and 800 email subscribers. Monthly marketing budget is $1,50
 I want to grow beyond Etsy. What's my strategy?
 ```
 
+### 📝 product-description-generator
+
+```
+Analyze these competitors and create a listing for my yoga mat:
+https://www.amazon.com/dp/B07K47PQZV, https://www.amazon.com/dp/B01NCBX6LZ
+My product: 6mm TPE, non-slip, carrying strap. Brand: ZenMat. Platform: Amazon US.
+```
+
+```
+Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
+Target audience: gift buyers. Tone: Luxury. Generate a full listing.
+```
+
 ## Skill Categories
 
 *Skills are being built and published progressively. Star this repo to get notified!*
@@ -58,7 +76,7 @@ I want to grow beyond Etsy. What's my strategy?
 |:-:|----------|:------:|:------:|
 | 🔍 | **Product Research** | 8 | 🔜 Coming soon |
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
+| 📝 | **Listing Optimization** | 8 | ✅ 1 available |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
@@ -67,7 +85,7 @@ I want to grow beyond Etsy. What's my strategy?
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
-**Current: 2 skills available · 65 more planned**
+**Current: 3 skills available · 64 more planned**
 
 ## Why Free?
 
