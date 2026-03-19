@@ -8,13 +8,17 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ## Available Skills
 
-*Skills are being built and published progressively. Star this repo to get notified!*
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [product-description-generator](./product-description-generator/) | Generate platform-optimized product copy (title, bullets, description, tags) using competitor research + keyword scoring + FABE copywriting. Four modes: Competitor Analysis, From Scratch, Rewrite Existing, From Image. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. No API key needed. | ✅ Available |
+
+## Planned Skills
 
 | # | Category | Skills | Status |
 |:-:|----------|:------:|:------:|
 | 🔍 | **Product Research** | 8 | 🔜 Coming soon |
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
+| 📝 | **Listing Optimization** | 7 | 🔜 Coming soon |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | 🔜 Coming soon |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
@@ -27,17 +31,39 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ## Quick Install
 
+### Install all skills
+
 ```bash
-# Install all skills
 npx skills add nexscope-ai/eCommerce-Skills -g
 ```
 
+### Install a specific skill
+
 ```bash
-# Install a specific skill
-npx skills add nexscope-ai/eCommerce-Skills --skill <skill-name> -g
+npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
 ```
 
-Individual install commands will be listed here as each skill is published.
+## Usage
+
+Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
+
+### 📝 product-description-generator
+
+```
+Analyze these competitors and create a listing for my yoga mat:
+https://www.amazon.com/dp/B07K47PQZV, https://www.amazon.com/dp/B01NCBX6LZ
+My product: 6mm TPE, non-slip, carrying strap. Brand: ZenMat. Platform: Amazon US.
+```
+
+```
+Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
+Target audience: gift buyers. Tone: Luxury. Generate a full listing.
+```
+
+```
+Optimize this underperforming listing: [paste current copy]
+Find keyword gaps and rewrite. Platform: Amazon US.
+```
 
 ## Why Free?
 
