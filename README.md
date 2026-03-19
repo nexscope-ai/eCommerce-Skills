@@ -12,16 +12,16 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | # | Category | Skills | Status |
 |:-:|----------|:------:|:------:|
-| 🔍 | **Product Research** (选品调研) | 8 | 🔜 Coming soon |
-| 🕵️ | **Competitor Analysis** (竞品分析) | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** (Listing优化) | 8 | 🔜 Coming soon |
-| 💰 | **Pricing & Profitability** (定价与盈利) | 6 | 🔜 Coming soon |
-| 📢 | **Advertising** (广告投放) | 7 | 🔜 Coming soon |
-| 🔔 | **Monitoring & Alerts** (监控与预警) | 5 | 🔜 Coming soon |
-| 🛒 | **E-Commerce Marketing** (电商营销) | 7 | 🔜 Coming soon |
-| 🚀 | **Growth & Expansion** (增长与扩张) | 7 | 🔜 Coming soon |
-| 🏭 | **Supply Chain & Logistics** (供应链物流) | 6 | 🔜 Coming soon |
-| 📊 | **Operations & Analytics** (运营与分析) | 7 | 🔜 Coming soon |
+| 🔍 | **Product Research** | 8 | 🔜 Coming soon |
+| 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
+| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
+| 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
+| 📢 | **Advertising** | 7 | 🔜 Coming soon |
+| 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
+| 🛒 | **E-Commerce Marketing** | 7 | 🔜 Coming soon |
+| 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
+| 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
+| 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
 **Total: 10 categories · 67 skills planned**
 
