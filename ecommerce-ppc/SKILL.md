@@ -4,7 +4,7 @@ description: "Cross-platform PPC strategy planner for ecommerce businesses. Anal
 metadata: {"clawdbot":{"emoji":"📊"}}
 ---
 
-# E-Commerce PPC Strategy Planner 📊
+# ecommerce ppc strategy planner 📊
 
 Plan your cross-platform advertising strategy: which platforms to use, how much to spend on each, and what campaigns to run. Generates actionable briefs for Google Ads, Meta Ads, and TikTok Ads — with ad copy and creative direction included.
 
