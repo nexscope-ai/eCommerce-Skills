@@ -17,6 +17,14 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ## Quick Install
 
+### Install all skills
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills -g
+```
+
+### Install a specific skill
+
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-content-marketing -g
 ```
