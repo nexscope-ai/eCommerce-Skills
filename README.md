@@ -10,43 +10,22 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [product-description-generator](./product-description-generator/) | Generate platform-optimized product copy (title, bullets, description, tags) using competitor research + keyword scoring + FABE copywriting. Two modes: (A) Create from scratch with optional competitor analysis, (B) Optimize existing listing with keyword gap analysis. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. No API key needed. | ✅ Available |
-| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — analyzes your product and margins, recommends the right ad platforms (Google Ads, Meta Ads, TikTok Ads), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. Two modes: Build from scratch or Optimize existing campaigns. No API key needed. | ✅ Available |
+| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — recommends ad platforms (Google, Meta, TikTok), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. | ✅ Available |
+| [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing strategy builder — covers paid ads, SEO, email/SMS, content, social media, influencers, and referral programs. Includes audience persona, competitive landscape, channel prioritization, budget allocation, and a 90-day action plan. | ✅ Available |
 
 ## Quick Install
 
 ```bash
-# Install all skills
-npx skills add nexscope-ai/eCommerce-Skills -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
 ```
 
 ```bash
-# Install a specific skill
-npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy-builder -g
 ```
 
 ## Usage
 
 Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
-
-### 📝 product-description-generator
-
-```
-Create a listing for my yoga mat on eBay UK.
-Competitors: https://www.ebay.co.uk/itm/123456789
-My product: 6mm TPE, non-slip, carrying strap included. Brand: ZenMat. Tone: Friendly.
-```
-
-```
-Optimize this Shopify listing: https://mystore.com/products/portable-blender
-Find keyword gaps and rewrite.
-```
-
-```
-Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
-Target audience: gift buyers. Brand: WickCraft. Tone: Luxury.
-```
 
 ### 📢 ecommerce-ppc-strategy-planner
 
@@ -58,8 +37,17 @@ I sell handmade candles on Shopify. Price $34, cost $8. Monthly ad budget $2,000
 Running Google Shopping (ROAS 3.2x, $3,000/mo) and Facebook ($1,800/mo, ROAS 1.4x). Margin is 45%. Should I shift budget?
 ```
 
+### 🎯 ecommerce-marketing-strategy-builder
+
 ```
-I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month budget. Where should I advertise?
+I'm launching a Shopify store selling premium dog treats, $24.99 per bag. Margin is 65%. 
+Budget: $3,000/month for marketing. Help me build a marketing strategy.
+```
+
+```
+I sell handmade jewelry on Etsy and my own website. Price range $40-120. I have 2,000 
+Instagram followers and 800 email subscribers. Monthly marketing budget is $1,500. 
+I want to grow beyond Etsy. What's my strategy?
 ```
 
 ## Skill Categories
@@ -70,11 +58,11 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 |:-:|----------|:------:|:------:|
 | 🔍 | **Product Research** | 8 | 🔜 Coming soon |
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 8 | ✅ 1 available |
+| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
-| 🛒 | **E-Commerce Marketing** | 7 | 🔜 Coming soon |
+| 🛒 | **E-Commerce Marketing** | 7 | ✅ 1 available |
 | 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
@@ -85,7 +73,7 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 
 These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
 
-Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
+Want more? **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
 
 ## License
 
