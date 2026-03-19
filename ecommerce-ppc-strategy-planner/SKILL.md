@@ -1,17 +1,17 @@
 ---
-name: ecommerce-ppc
+name: ecommerce-ppc-strategy-planner
 description: "Cross-platform PPC strategy planner for ecommerce businesses. Analyzes your product and margins, recommends the right advertising platforms (Google Ads, Meta Ads, TikTok Ads), calculates ROAS targets, allocates budget across channels, and generates platform-specific campaign briefs with ad copy and creative direction. Two modes: (A) Build — design a multi-platform ad strategy from scratch, (B) Optimize — audit existing cross-platform campaigns and reallocate budget. Works for Shopify, WooCommerce, standalone stores, and marketplace sellers expanding to external traffic. No API key required."
 metadata: {"clawdbot":{"emoji":"📊"}}
 ---
 
-# ecommerce ppc strategy planner 📊
+# E-Commerce PPC Strategy Planner 📊
 
 Plan your cross-platform advertising strategy: which platforms to use, how much to spend on each, and what campaigns to run. Generates actionable briefs for Google Ads, Meta Ads, and TikTok Ads — with ad copy and creative direction included.
 
 ## Installation
 
 ```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
 ```
 
 ## Two Modes
