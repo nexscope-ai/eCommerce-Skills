@@ -59,7 +59,7 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 
 These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
 
-For advanced features like real-time market data, automated monitoring, and AI-powered recommendations, check out **[Nexscope](https://github.com/nexscope-ai)** — AI-powered tools for e-commerce sellers.
+Want more? **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
 
 ## License
 
@@ -67,4 +67,4 @@ MIT
 
 ---
 
-Built by **[Nexscope AI](https://github.com/nexscope-ai)** — AI-powered e-commerce intelligence for Google Ads, Meta, TikTok, Shopify, Etsy, Walmart, and more.
+Built by **[Nexscope](https://www.nexscope.ai/)** — research, validate, and act on e-commerce opportunities with AI.

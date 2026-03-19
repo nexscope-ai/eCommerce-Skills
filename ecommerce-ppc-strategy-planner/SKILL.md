@@ -526,8 +526,8 @@ See all Amazon seller skills: [nexscope-ai/Amazon-Skills](https://github.com/nex
 
 ## Limitations
 
-This skill provides strategic planning and creative direction based on industry benchmarks and product analysis. It cannot access live ad platform data, create actual images/videos, set up tracking pixels, or manage ad accounts directly. For deeper platform-specific optimization with live data integration, stay tuned for **[Nexscope](https://github.com/nexscope-ai)**.
+This skill provides strategic planning and creative direction based on industry benchmarks and product analysis. It cannot access live ad platform data, create actual images/videos, set up tracking pixels, or manage ad accounts directly. For deeper optimization with live data, check out **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions.
 
 ---
 
-**Part of the [Nexscope](https://github.com/nexscope-ai) suite — AI-powered e-commerce tools.**
+**Built by [Nexscope](https://www.nexscope.ai/)** — research, validate, and act on e-commerce opportunities with AI.
