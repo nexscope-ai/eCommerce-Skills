@@ -10,15 +10,41 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [product-description-generator](./product-description-generator/) | Generate platform-optimized product copy (title, bullets, description, tags) using competitor research + keyword scoring + FABE copywriting. Four modes: Competitor Analysis, From Scratch, Rewrite Existing, From Image. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. No API key needed. | ✅ Available |
+| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — analyzes your product and margins, recommends the right ad platforms (Google Ads, Meta Ads, TikTok Ads), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. Two modes: Build from scratch or Optimize existing campaigns. No API key needed. | ✅ Available |
 
-## Planned Skills
+## Quick Install
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
+```
+
+## Usage
+
+Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
+
+### 📢 ecommerce-ppc-strategy-planner
+
+```
+I sell handmade candles on Shopify. Price $34, cost $8. Monthly ad budget $2,000. Help me plan which platforms to advertise on.
+```
+
+```
+Running Google Shopping (ROAS 3.2x, $3,000/mo) and Facebook ($1,800/mo, ROAS 1.4x). Margin is 45%. Should I shift budget?
+```
+
+```
+I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month budget. Where should I advertise?
+```
+
+## Skill Categories
+
+*Skills are being built and published progressively. Star this repo to get notified!*
 
 | # | Category | Skills | Status |
 |:-:|----------|:------:|:------:|
 | 🔍 | **Product Research** | 8 | 🔜 Coming soon |
 | 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 7 | 🔜 Coming soon |
+| 📝 | **Listing Optimization** | 8 | 🔜 Coming soon |
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
@@ -27,43 +53,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
-**Total: 10 categories · 67 skills planned**
-
-## Quick Install
-
-### Install all skills
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills -g
-```
-
-### Install a specific skill
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
-```
-
-## Usage
-
-Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
-
-### 📝 product-description-generator
-
-```
-Analyze these competitors and create a listing for my yoga mat:
-https://www.amazon.com/dp/B07K47PQZV, https://www.amazon.com/dp/B01NCBX6LZ
-My product: 6mm TPE, non-slip, carrying strap. Brand: ZenMat. Platform: Amazon US.
-```
-
-```
-Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
-Target audience: gift buyers. Tone: Luxury. Generate a full listing.
-```
-
-```
-Optimize this underperforming listing: [paste current copy]
-Find keyword gaps and rewrite. Platform: Amazon US.
-```
+**Current: 1 skill available · 66 more planned**
 
 ## Why Free?
 
