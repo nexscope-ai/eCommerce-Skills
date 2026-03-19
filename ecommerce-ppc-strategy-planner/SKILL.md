@@ -1,7 +1,7 @@
 ---
 name: ecommerce-ppc-strategy-planner
 description: "Cross-platform PPC strategy planner for ecommerce businesses. Analyzes your product and margins, recommends the right advertising platforms (Google Ads, Meta Ads, TikTok Ads), calculates ROAS targets, allocates budget across channels, and generates platform-specific campaign briefs with ad copy and creative direction. Two modes: (A) Build — design a multi-platform ad strategy from scratch, (B) Optimize — audit existing cross-platform campaigns and reallocate budget. Works for Shopify, WooCommerce, standalone stores, and marketplace sellers expanding to external traffic. No API key required."
-metadata: {"clawdbot":{"emoji":"📊"}}
+metadata: {"nexscope":{"emoji":"📊","category":"ecommerce"}}
 ---
 
 # E-Commerce PPC Strategy Planner 📊
