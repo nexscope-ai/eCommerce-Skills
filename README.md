@@ -85,7 +85,7 @@ I'm launching a fitness resistance band set, $29.99, 60% margin. $5,000/month bu
 
 These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
 
-Want more? **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
+Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
 
 ## License
 
