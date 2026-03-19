@@ -10,11 +10,16 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
+| [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy planner — analyzes customer reviews, trends, competitor content, and SEO opportunities to generate content calendars, topic ideas, and platform-specific strategies. Supports TikTok, Instagram, YouTube, X, Pinterest, Blog, Amazon A+. | ✅ Available |
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — recommends ad platforms (Google, Meta, TikTok), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. | ✅ Available |
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing strategy builder — covers paid ads, SEO, email/SMS, content, social media, influencers, and referral programs. Includes audience persona, competitive landscape, channel prioritization, budget allocation, and a 90-day action plan. | ✅ Available |
 | [product-description-generator](./product-description-generator/) | E-commerce product description generator for any platform. Generates optimized titles, bullet points, descriptions, and backend keywords using competitor research + keyword scoring + FABE copywriting. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
 
 ## Quick Install
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-content-marketing -g
+```
 
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
@@ -31,6 +36,20 @@ npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generato
 ## Usage
 
 Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
+
+### 📣 ecommerce-content-marketing
+
+```
+Build a content marketing strategy for my portable blender brand.
+Target market: US. Platforms: TikTok, Instagram, Blog.
+Content goal: Brand awareness + conversions.
+```
+
+```
+Audit my content strategy. Here's my TikTok: @mybrandhandle
+Compare against competitors: @competitor1, @competitor2
+Find gaps and opportunities.
+```
 
 ### 📢 ecommerce-ppc-strategy-planner
 
@@ -80,18 +99,18 @@ Target audience: gift buyers. Tone: Luxury. Generate a full listing.
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
-| 🛒 | **E-Commerce Marketing** | 7 | ✅ 1 available |
+| 🛒 | **E-Commerce Marketing** | 7 | ✅ 2 available |
 | 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
-**Current: 3 skills available · 64 more planned**
+**Current: 4 skills available · 63 more planned**
 
 ## Why Free?
 
 These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
 
-Want more? **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
+Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
 
 ## License
 
