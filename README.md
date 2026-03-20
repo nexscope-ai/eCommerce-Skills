@@ -47,10 +47,11 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🛡️ Brand Protection
+### 🛡️ Brand Protection & Monitoring
 
 | Skill | Description | Status |
 |-------|-------------|--------|
+| [brand-monitoring](./brand-monitoring/) | Brand mention tracking across Reddit, Google News, YouTube, DuckDuckGo. Sentiment analysis, crisis detection. | ✅ Available |
 | [brand-protection-amazon](./brand-protection/brand-protection-amazon/) | Amazon brand protection — hijackers, counterfeits, MAP violations, Brand Registry. | ✅ Available |
 | [brand-protection-ebay](./brand-protection/brand-protection-ebay/) | eBay brand protection — unauthorized sellers, counterfeits, VeRO complaints. | ✅ Available |
 | [brand-protection-shopify](./brand-protection/brand-protection-shopify/) | Shopify/DTC brand protection — counterfeit stores, DMCA takedowns, domain monitoring. | ✅ Available |
@@ -67,6 +68,14 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [product-differentiation-ebay](./product-differentiation/product-differentiation-ebay/) | eBay differentiation — competitor analysis, listing gaps, unique selling points. | ✅ Available |
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok/) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
+
+---
+
+### 🏪 Marketplace SEO
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
 
 ---
 
@@ -106,12 +115,13 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | 📝 Listing & Content | 1 |
 | 💰 Pricing & Profitability | 4 |
 | 📢 Marketing & Advertising | 5 |
-| 🛡️ Brand Protection | 5 |
+| 🛡️ Brand Protection & Monitoring | 6 |
+| 🏪 Marketplace SEO | 1 |
 | 🎯 Product Differentiation | 4 |
 | 📦 Supply Chain & Logistics | 4 |
 | 🔍 Review Analysis | 3 |
 | 🏭 Operations & Inventory | 1 |
-| **Total** | **27** |
+| **Total** | **29** |
 
 ---
 
