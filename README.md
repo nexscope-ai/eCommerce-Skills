@@ -16,7 +16,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ## 📋 Skills by Category
 
-### 🔍 1. Product Research（选品调研）
+### 🔍 1. Product Research
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -27,7 +27,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🕵️ 2. Competitor Analysis（竞品分析）
+### 🕵️ 2. Competitor Analysis
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -38,7 +38,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 📝 3. Listing Optimization（Listing优化）
+### 📝 3. Listing Optimization
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -50,7 +50,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 💰 4. Pricing & Profitability（定价与盈利）
+### 💰 4. Pricing & Profitability
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -64,7 +64,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 📢 5. Advertising（广告投放）
+### 📢 5. Advertising
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -76,7 +76,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 📡 6. Monitoring & Alerts（监控与预警）
+### 📡 6. Monitoring & Alerts
 
 *Best with cron for periodic execution*
 
@@ -90,7 +90,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 📣 7. E-Commerce Marketing（电商营销）
+### 📣 7. E-Commerce Marketing
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -104,7 +104,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🚀 8. Growth & Expansion（增长与扩张）
+### 🚀 8. Growth & Expansion
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -123,7 +123,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🏭 9. Supply Chain & Logistics（供应链物流）
+### 🏭 9. Supply Chain & Logistics
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -138,7 +138,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### ⚙️ 10. Operations & Analytics（运营与分析）
+### ⚙️ 10. Operations & Analytics
 
 | Skill | Description | Status |
 |-------|-------------|--------|
