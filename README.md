@@ -4,7 +4,7 @@ Free AI agent skills for e-commerce businesses — cross-platform tools for mark
 
 Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and any agent that supports the [Skills format](https://skills.sh).
 
-> **🔍 Need Amazon-specific tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA calculators, listing optimization, PPC campaigns, and keyword research.
+> **🔍 Need Amazon-only tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA calculators, listing optimization, PPC campaigns, and keyword research.
 
 ## Available Skills
 
@@ -12,43 +12,86 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy planner — customer reviews, trends, competitor analysis, content calendars, platform-specific strategies. | ✅ Available |
-| [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, and automation strategies. | ✅ Available |
-| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation, campaign briefs. | ✅ Available |
-| [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers, referrals. | ✅ Available |
-| [product-description-generator](./product-description-generator/) | Product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
-
-### 💰 Profit & Pricing
-
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [profit-margin-calculator-shopify](./profit-margin-calculator-shopify/) | Shopify/DTC profit calculator — ad spend, CAC, payment processing, 3PL costs, LTV/CAC analysis. | ✅ Available |
-| [profit-margin-calculator-walmart](./profit-margin-calculator-walmart/) | Walmart profit calculator — WFS fulfillment, storage fees, referral fees. FBA comparison included. | ✅ Available |
-| [profit-margin-calculator-tiktok](./profit-margin-calculator-tiktok/) | TikTok Shop profit calculator — affiliate commissions, platform fees, FBT costs, return rate analysis. | ✅ Available |
+| [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy planner — customer reviews, trends, competitor analysis, content calendars. | ✅ Available |
+| [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
+| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation. | ✅ Available |
+| [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers. | ✅ Available |
+| [product-description-generator](./product-description-generator/) | Product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop. | ✅ Available |
 
 ### 🛡️ Brand Protection
 
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [brand-protection-shopify](./brand-protection-shopify/) | Shopify/DTC brand protection — counterfeit stores, unauthorized resellers, DMCA takedown templates. | ✅ Available |
-| [brand-protection-ebay](./brand-protection-ebay/) | eBay brand protection — unauthorized sellers, counterfeits, VeRO violations, complaint templates. | ✅ Available |
-| [brand-protection-walmart](./brand-protection-walmart/) | Walmart brand protection — unauthorized sellers, MAP violations, IP infringement reporting. | ✅ Available |
-| [brand-protection-tiktok](./brand-protection-tiktok/) | TikTok Shop brand protection — counterfeit detection, IP reporting, seller violation tracking. | ✅ Available |
+| Skill | Platforms | Status |
+|-------|-----------|--------|
+| [brand-protection](./brand-protection/) | Amazon, eBay, Shopify, TikTok, Walmart | ✅ Available |
 
-### 🔍 Review Analysis
+Detect hijackers, counterfeits, unauthorized sellers, MAP violations. Includes complaint templates for Brand Registry, VeRO, DMCA.
 
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [ebay-review-checker](./ebay-review-checker/) | eBay review authenticity analyzer — fake reviews, suspicious feedback patterns, buyer manipulation. | ✅ Available |
-| [walmart-review-checker](./walmart-review-checker/) | Walmart review authenticity analyzer — fake reviews, WFS verified badge analysis, red flags. | ✅ Available |
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-amazon -g
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-ebay -g
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-shopify -g
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-tiktok -g
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-walmart -g
+```
 
-### 📦 Supply Chain
+### 💰 Profit Margin Calculator
 
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [supply-chain-optimization-shopify](./supply-chain-optimization-shopify/) | Shopify/DTC supply chain analyzer — cash flow, inventory, shipping costs, CAC/LTV, 3PL optimization. | ✅ Available |
-| [supply-chain-optimization-walmart](./supply-chain-optimization-walmart/) | Walmart supply chain analyzer — WFS costs, referral fees, Walmart Connect ads, FBA comparison. | ✅ Available |
-| [supply-chain-optimization-tiktok](./supply-chain-optimization-tiktok/) | TikTok Shop supply chain analyzer — affiliate payouts, return rates, viral product lifecycle. | ✅ Available |
+| Skill | Platforms | Status |
+|-------|-----------|--------|
+| [profit-margin-calculator](./profit-margin-calculator/) | Amazon, Shopify, TikTok, Walmart | ✅ Available |
+
+Calculate cost breakdowns, profit margins, break-even points, and pricing recommendations. Platform-specific fee structures included.
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-amazon -g
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-shopify -g
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-tiktok -g
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-walmart -g
+```
+
+### 📦 Supply Chain Optimization
+
+| Skill | Platforms | Status |
+|-------|-----------|--------|
+| [supply-chain-optimization](./supply-chain-optimization/) | Amazon, Shopify, TikTok, Walmart | ✅ Available |
+
+Diagnose bottlenecks in cash flow, inventory, fulfillment costs. Platform-specific optimization strategies.
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization/supply-chain-optimization-amazon -g
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization/supply-chain-optimization-shopify -g
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization/supply-chain-optimization-tiktok -g
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization/supply-chain-optimization-walmart -g
+```
+
+### 🔍 Review Checker
+
+| Skill | Platforms | Status |
+|-------|-----------|--------|
+| [review-checker](./review-checker/) | Amazon, eBay, Walmart | ✅ Available |
+
+Review authenticity analyzer — detect fake reviews, suspicious patterns, rating manipulation, time clustering.
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill review-checker/amazon-review-checker -g
+npx skills add nexscope-ai/eCommerce-Skills --skill review-checker/ebay-review-checker -g
+npx skills add nexscope-ai/eCommerce-Skills --skill review-checker/walmart-review-checker -g
+```
+
+### 🎯 Product Differentiation
+
+| Skill | Platforms | Status |
+|-------|-----------|--------|
+| [product-differentiation](./product-differentiation/) | Amazon, eBay, Shopify, TikTok | ✅ Available |
+
+Analyze competitor weaknesses, extract pain points from negative reviews, identify unique selling points, generate differentiation strategies.
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill product-differentiation/product-differentiation-amazon -g
+npx skills add nexscope-ai/eCommerce-Skills --skill product-differentiation/product-differentiation-ebay -g
+npx skills add nexscope-ai/eCommerce-Skills --skill product-differentiation/product-differentiation-shopify -g
+npx skills add nexscope-ai/eCommerce-Skills --skill product-differentiation/product-differentiation-tiktok -g
+```
 
 ## Quick Install
 
@@ -58,22 +101,31 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 npx skills add nexscope-ai/eCommerce-Skills -g
 ```
 
-### Install a specific skill
+### Install by category
+
+```bash
+# All brand protection skills
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection -g
+
+# All profit calculators
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator -g
+
+# All supply chain skills
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization -g
+
+# All review checkers
+npx skills add nexscope-ai/eCommerce-Skills --skill review-checker -g
+
+# All product differentiation
+npx skills add nexscope-ai/eCommerce-Skills --skill product-differentiation -g
+```
+
+### Install individual skills
 
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-content-marketing -g
-```
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator-shopify -g
-```
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection-walmart -g
-```
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization-tiktok -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-builder -g
+npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
 ```
 
 ## Usage
@@ -82,49 +134,45 @@ Once installed, just ask your AI agent naturally. The agent will automatically p
 
 ### 📣 ecommerce-content-marketing
 ```
-Build a content marketing strategy for my portable blender brand. Platforms: TikTok, Instagram, Blog.
+Build a content marketing strategy for my portable blender brand. Platforms: TikTok, Instagram.
 ```
 
-### 📧 ecommerce-email-marketing-builder
+### 🛡️ brand-protection
 ```
-Create an email welcome sequence for my Shopify store selling skincare products.
-```
-
-### 💰 profit-margin-calculator-shopify
-```
-Calculate margins: Product cost $12, shipping $4, price $39.99, CAC $15, 3PL $3
+I found a hijacker on my Amazon listing. Help me file a Brand Registry complaint.
 ```
 
-### 💰 profit-margin-calculator-walmart
+### 💰 profit-margin-calculator
 ```
-Calculate Walmart margins: Product cost $8, WFS fulfillment, selling price $24.99
-```
-
-### 🛡️ brand-protection-shopify
-```
-I found a copycat store selling fake versions of my product. Help me send a DMCA takedown.
+Calculate my Shopify margins: Product cost $12, shipping $4, price $39.99, CAC $15
 ```
 
-### 🔍 walmart-review-checker
-```
-Analyze reviews for this Walmart product — are they authentic or manipulated?
-```
-
-### 📦 supply-chain-optimization-tiktok
+### 📦 supply-chain-optimization
 ```
 My TikTok Shop return rate is 18%. Affiliate commissions eating my margins. How to optimize?
 ```
 
+### 🔍 review-checker
+```
+Analyze reviews for this Amazon product — are they authentic or manipulated?
+```
+
+### 🎯 product-differentiation
+```
+Analyze my competitors' negative reviews and help me differentiate my product.
+```
+
 ## Summary
 
-| Category | Skills |
-|----------|:------:|
-| 📢 Marketing & Content | 5 |
-| 💰 Profit & Pricing | 3 |
-| 🛡️ Brand Protection | 4 |
-| 🔍 Review Analysis | 2 |
-| 📦 Supply Chain | 3 |
-| **Total** | **17** |
+| Category | Skills | Platforms |
+|----------|:------:|-----------|
+| 📢 Marketing & Content | 5 | Cross-platform |
+| 🛡️ Brand Protection | 5 | Amazon, eBay, Shopify, TikTok, Walmart |
+| 💰 Profit Calculator | 4 | Amazon, Shopify, TikTok, Walmart |
+| 📦 Supply Chain | 4 | Amazon, Shopify, TikTok, Walmart |
+| 🔍 Review Checker | 3 | Amazon, eBay, Walmart |
+| 🎯 Product Differentiation | 4 | Amazon, eBay, Shopify, TikTok |
+| **Total** | **25** | |
 
 ## Why Free?
 
@@ -134,7 +182,7 @@ Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for sm
 
 ## Related
 
-Looking for Amazon-specific tools? Check out **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — keyword research, listing optimization, FBA calculators, PPC campaigns, sales estimation & more.
+Looking for Amazon-only tools? Check out **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — FBA calculator, keyword research, listing optimization, PPC campaigns, sales estimation.
 
 ## License
 
