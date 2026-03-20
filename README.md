@@ -35,11 +35,19 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 📢 Marketing & Advertising
+### 🚀 Growth & Expansion
 
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [ecommerce-growth-strategy](./ecommerce-growth-strategy/) | Strategic growth advisor — unit economics diagnosis, Ansoff Matrix, 5 growth levers, multichannel expansion, 90-day roadmap. | ✅ Available |
+| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
+
+---
+
+### 📢 Marketing & Advertising
+
+| Skill | Description | Status |
+|-------|-------------|--------|
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation. | ✅ Available |
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers. | ✅ Available |
 | [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
@@ -68,14 +76,6 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [product-differentiation-ebay](./product-differentiation/product-differentiation-ebay/) | eBay differentiation — competitor analysis, listing gaps, unique selling points. | ✅ Available |
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok/) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
-
----
-
-### 🏪 Marketplace SEO
-
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
 
 ---
 
@@ -114,9 +114,9 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 |----------|:------:|
 | 📝 Listing & Content | 1 |
 | 💰 Pricing & Profitability | 4 |
-| 📢 Marketing & Advertising | 5 |
+| 🚀 Growth & Expansion | 2 |
+| 📢 Marketing & Advertising | 4 |
 | 🛡️ Brand Protection & Monitoring | 6 |
-| 🏪 Marketplace SEO | 1 |
 | 🎯 Product Differentiation | 4 |
 | 📦 Supply Chain & Logistics | 4 |
 | 🔍 Review Analysis | 3 |
