@@ -67,6 +67,12 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok/) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
 
+### 🏭 Warehouse & Inventory
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [warehouse-optimization](./warehouse-optimization/) | Warehouse & inventory optimization — safety stock, reorder points, ABC analysis, IPI score, fulfillment costs. Supports FBA, FBM, WFS, 3PL, Shopify, TikTok, Dropship, Hybrid. | ✅ Available |
+
 ## Quick Install
 
 ### Install all skills
@@ -118,6 +124,11 @@ Analyze reviews for this Amazon product — are they authentic or manipulated?
 Analyze my competitors' negative reviews and help me differentiate my product.
 ```
 
+### 🏭 warehouse-optimization
+```
+I use FBA. My IPI score dropped to 400 and I have excess inventory warnings. How do I fix this?
+```
+
 ## Summary
 
 | Category | Skills |
@@ -128,7 +139,8 @@ Analyze my competitors' negative reviews and help me differentiate my product.
 | 📦 Supply Chain | 4 |
 | 🔍 Review Checker | 3 |
 | 🎯 Product Differentiation | 4 |
-| **Total** | **25** |
+| 🏭 Warehouse & Inventory | 1 |
+| **Total** | **26** |
 
 ## Why Free?
 

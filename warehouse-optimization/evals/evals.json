@@ -1,0 +1,35 @@
+{
+  "skill_name": "warehouse-optimization",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have an Amazon FBA business. My IPI score dropped to 450 and I'm getting storage limits. I have 500 units of slow-moving inventory that's been sitting for 4 months. What should I do?",
+      "expected_output": "Analysis of IPI score issues, aged inventory removal strategies, storage fee calculations, and actionable recommendations to improve IPI above 500",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Calculate safety stock for my product. Average daily sales: 50 units. Lead time: 14 days. I want 95% service level. My supplier is sometimes late by up to 5 days.",
+      "expected_output": "Safety stock calculation using statistical formula, reorder point recommendation, consideration of lead time variability",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I sell on both Amazon FBA and Shopify with a 3PL. Should I consolidate to one fulfillment method or keep the hybrid setup? Monthly orders: 2000 Amazon, 800 Shopify.",
+      "expected_output": "Cost comparison between hybrid vs consolidated, pros/cons analysis, channel-specific considerations, recommendation based on order volume",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Do an ABC analysis for my inventory. I have 150 SKUs. Top 20 SKUs make 65% of revenue, next 40 make 25%, the rest make 10%. How should I prioritize?",
+      "expected_output": "ABC classification breakdown, inventory management strategies per category, reorder frequency recommendations, storage location optimization",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "My TikTok Shop is growing fast. Getting 100+ orders daily now. Currently dropshipping but fulfillment is slow (7-10 days). Should I switch to TikTok Shop Fulfillment or use a 3PL?",
+      "expected_output": "Comparison of dropshipping vs TikTok Fulfillment vs 3PL, shipping speed requirements, cost analysis, scalability considerations",
+      "files": []
+    }
+  ]
+}
