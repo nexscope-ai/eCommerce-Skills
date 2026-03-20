@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """
 Amazon Profit Calculator - Core Engine
-亚马逊利润计算器 - 核心计算引擎
 
-功能:
-- 成本明细计算
-- 利润率计算 (毛利/净利)
-- 盈亏平衡分析
-- 定价建议
-- 批量计算支持
+Features:
+- Cost breakdown calculation
+- Profit margin calculation (gross/net)
+- Break-even analysis
+- Pricing recommendations
+- Batch calculation support
 
-版本: 1.0.0
+Version: 1.0.0
 """
 
 import json
@@ -22,18 +21,18 @@ import sys
 
 
 class ProfitStatus(Enum):
-    HEALTHY = "healthy"      # >20% 净利率
-    WARNING = "warning"      # 5-20% 净利率
-    DANGER = "danger"        # <5% 净利率
-    LOSS = "loss"           # 亏损
+    HEALTHY = "healthy"      # >20% net margin
+    WARNING = "warning"      # 5-20% net margin
+    DANGER = "danger"        # <5% net margin
+    LOSS = "loss"            # Negative margin
 
 
 # ============================================================
-# 亚马逊 Referral Fee 费率表 (按品类)
+# Amazon Referral Fee Rates (by category)
 # ============================================================
 
 REFERRAL_FEE_RATES = {
-    # 品类: 费率
+    # Category: Rate
     "default": 0.15,
     "electronics": 0.08,
     "computers": 0.08,
@@ -60,18 +59,18 @@ REFERRAL_FEE_RATES = {
     "office": 0.15,
 }
 
-# FBA 配送费参考表 (简化版，基于尺寸分级)
+# FBA Fulfillment Fee Reference (simplified, based on size tier)
 FBA_FULFILLMENT_FEES = {
-    "small_standard": 3.22,      # 小号标准 (<1lb)
-    "large_standard_1lb": 4.75,  # 大号标准 (<1lb)
-    "large_standard_2lb": 5.40,  # 大号标准 (1-2lb)
-    "large_standard_3lb": 6.10,  # 大号标准 (2-3lb)
-    "small_oversize": 9.73,      # 小号超大
-    "medium_oversize": 19.05,    # 中号超大
-    "large_oversize": 89.98,     # 大号超大
+    "small_standard": 3.22,      # Small standard (<1lb)
+    "large_standard_1lb": 4.75,  # Large standard (<1lb)
+    "large_standard_2lb": 5.40,  # Large standard (1-2lb)
+    "large_standard_3lb": 6.10,  # Large standard (2-3lb)
+    "small_oversize": 9.73,      # Small oversize
+    "medium_oversize": 19.05,    # Medium oversize
+    "large_oversize": 89.98,     # Large oversize
 }
 
-# 利润率阈值
+# Profit margin thresholds
 PROFIT_THRESHOLDS = {
     "healthy": 0.20,    # >20%
     "warning": 0.05,    # 5-20%
@@ -80,42 +79,42 @@ PROFIT_THRESHOLDS = {
 
 
 # ============================================================
-# 数据结构
+# Data Structures
 # ============================================================
 
 @dataclass
 class ProductInput:
-    """单个产品输入数据"""
+    """Single product input data"""
     sku: str = "SKU001"
     name: str = "Product"
     
-    # 售价
+    # Selling price
     selling_price: float = 0.0
     
-    # 成本项
-    product_cost: float = 0.0           # 产品成本 (FOB)
-    shipping_cost: float = 0.0          # 头程运费
-    fba_fulfillment_fee: float = 0.0    # FBA 配送费
-    fba_storage_fee: float = 0.0        # FBA 仓储费 (月均)
+    # Cost items
+    product_cost: float = 0.0           # Product cost (FOB)
+    shipping_cost: float = 0.0          # Inbound shipping
+    fba_fulfillment_fee: float = 0.0    # FBA fulfillment fee
+    fba_storage_fee: float = 0.0        # FBA storage fee (monthly avg)
     
-    # 可选成本
-    ad_spend_ratio: float = 0.0         # 广告费占比 (0-1)
-    return_rate: float = 0.0            # 退货率 (0-1)
-    return_processing_fee: float = 0.0  # 退货处理费/件
-    other_fees: float = 0.0             # 其他杂费
+    # Optional costs
+    ad_spend_ratio: float = 0.0         # Ad spend ratio (0-1)
+    return_rate: float = 0.0            # Return rate (0-1)
+    return_processing_fee: float = 0.0  # Return processing fee per unit
+    other_fees: float = 0.0             # Other fees
     
-    # 平台相关
-    category: str = "default"           # 品类 (用于计算 Referral Fee)
-    referral_fee_rate: Optional[float] = None  # 自定义佣金费率
+    # Platform related
+    category: str = "default"           # Category (for Referral Fee)
+    referral_fee_rate: Optional[float] = None  # Custom commission rate
     
-    # 批量计算用
-    monthly_sales: int = 0              # 月销量 (用于计算固定成本分摊)
-    fixed_costs: float = 0.0            # 固定成本 (用于盈亏平衡)
+    # For batch calculation
+    monthly_sales: int = 0              # Monthly sales (for fixed cost allocation)
+    fixed_costs: float = 0.0            # Fixed costs (for break-even)
 
 
 @dataclass
 class CostBreakdown:
-    """成本拆解"""
+    """Cost breakdown"""
     selling_price: float
     product_cost: float
     shipping_cost: float
@@ -151,24 +150,24 @@ class CostBreakdown:
 
 @dataclass
 class BreakEvenAnalysis:
-    """盈亏平衡分析"""
-    min_price: float              # 最低售价 (保本)
-    break_even_units: int         # 保本销量
-    safety_margin: float          # 安全边际
-    current_margin_above_min: float  # 当前售价高于保本价的比例
+    """Break-even analysis"""
+    min_price: float              # Minimum price (break-even)
+    break_even_units: int         # Break-even units
+    safety_margin: float          # Safety margin
+    current_margin_above_min: float  # Current price above minimum
 
 
 @dataclass
 class PricingSuggestion:
-    """定价建议"""
-    target_margin: float          # 目标利润率
-    suggested_price: float        # 建议售价
-    profit_per_unit: float        # 单件利润
+    """Pricing recommendation"""
+    target_margin: float          # Target profit margin
+    suggested_price: float        # Suggested price
+    profit_per_unit: float        # Profit per unit
 
 
 @dataclass
 class AnalysisResult:
-    """完整分析结果"""
+    """Complete analysis result"""
     product: ProductInput
     cost_breakdown: CostBreakdown
     break_even: BreakEvenAnalysis
@@ -178,26 +177,26 @@ class AnalysisResult:
 
 
 # ============================================================
-# 核心计算函数
+# Core Calculation Functions
 # ============================================================
 
 def get_referral_fee_rate(category: str, custom_rate: Optional[float] = None) -> float:
-    """获取 Referral Fee 费率"""
+    """Get Referral Fee rate"""
     if custom_rate is not None:
         return custom_rate
     return REFERRAL_FEE_RATES.get(category.lower(), REFERRAL_FEE_RATES["default"])
 
 
 def calculate_costs(product: ProductInput) -> CostBreakdown:
-    """计算成本明细"""
+    """Calculate cost breakdown"""
     # Referral Fee
     referral_rate = get_referral_fee_rate(product.category, product.referral_fee_rate)
     referral_fee = product.selling_price * referral_rate
     
-    # 广告费
+    # Ad cost
     ad_cost = product.selling_price * product.ad_spend_ratio
     
-    # 退货成本 = 退货率 × (退货处理费 + 产品成本损失比例)
+    # Return cost = return rate × (processing fee + product cost loss ratio)
     return_cost = product.return_rate * (product.return_processing_fee + product.product_cost * 0.5)
     
     return CostBreakdown(
@@ -214,8 +213,8 @@ def calculate_costs(product: ProductInput) -> CostBreakdown:
 
 
 def calculate_break_even(product: ProductInput, costs: CostBreakdown) -> BreakEvenAnalysis:
-    """计算盈亏平衡点"""
-    # 可变成本 (每件)
+    """Calculate break-even point"""
+    # Variable cost (per unit)
     variable_cost = (
         product.product_cost +
         product.shipping_cost +
@@ -226,21 +225,21 @@ def calculate_break_even(product: ProductInput, costs: CostBreakdown) -> BreakEv
         product.other_fees
     )
     
-    # 最低售价 (覆盖可变成本 + 广告费)
-    # 设广告费占比不变，则: min_price - variable_cost - min_price * ad_ratio = 0
+    # Minimum price (cover variable cost + ad spend)
+    # Ad ratio unchanged: min_price - variable_cost - min_price * ad_ratio = 0
     # min_price * (1 - ad_ratio) = variable_cost
     if product.ad_spend_ratio < 1:
         min_price = variable_cost / (1 - product.ad_spend_ratio)
     else:
-        min_price = variable_cost * 2  # 异常情况
+        min_price = variable_cost * 2  # Abnormal case
     
-    # 保本销量 (如果有固定成本)
+    # Break-even units (if fixed costs exist)
     if product.fixed_costs > 0 and costs.net_profit > 0:
         break_even_units = int(product.fixed_costs / costs.net_profit) + 1
     else:
         break_even_units = 0
     
-    # 安全边际
+    # Safety margin
     safety_margin = (product.selling_price - min_price) / product.selling_price if product.selling_price > 0 else 0
     margin_above_min = (product.selling_price - min_price) / min_price if min_price > 0 else 0
     
@@ -253,13 +252,13 @@ def calculate_break_even(product: ProductInput, costs: CostBreakdown) -> BreakEv
 
 
 def calculate_pricing_suggestions(product: ProductInput, target_margins: List[float] = None) -> List[PricingSuggestion]:
-    """计算定价建议"""
+    """Calculate pricing recommendations"""
     if target_margins is None:
         target_margins = [0.15, 0.20, 0.25, 0.30]
     
     suggestions = []
     
-    # 基础成本 (不含 Referral Fee 和广告费，因为它们是售价的百分比)
+    # Base cost (excluding Referral Fee and ad cost as they're % of price)
     base_cost = (
         product.product_cost +
         product.shipping_cost +
@@ -272,7 +271,7 @@ def calculate_pricing_suggestions(product: ProductInput, target_margins: List[fl
     referral_rate = get_referral_fee_rate(product.category, product.referral_fee_rate)
     
     for target_margin in target_margins:
-        # 目标: net_profit / selling_price = target_margin
+        # Target: net_profit / selling_price = target_margin
         # net_profit = selling_price - base_cost - selling_price * referral_rate - selling_price * ad_ratio
         # selling_price * target_margin = selling_price - base_cost - selling_price * (referral_rate + ad_ratio)
         # selling_price * (target_margin + referral_rate + ad_ratio - 1) = -base_cost
@@ -293,7 +292,7 @@ def calculate_pricing_suggestions(product: ProductInput, target_margins: List[fl
 
 
 def evaluate_profit_status(net_margin: float) -> ProfitStatus:
-    """评估利润状态"""
+    """Evaluate profit status"""
     if net_margin < 0:
         return ProfitStatus.LOSS
     elif net_margin < PROFIT_THRESHOLDS["warning"]:
@@ -305,20 +304,20 @@ def evaluate_profit_status(net_margin: float) -> ProfitStatus:
 
 
 def analyze_product(product: ProductInput, target_margins: List[float] = None) -> AnalysisResult:
-    """分析单个产品"""
+    """Analyze single product"""
     costs = calculate_costs(product)
     break_even = calculate_break_even(product, costs)
     pricing = calculate_pricing_suggestions(product, target_margins)
     status = evaluate_profit_status(costs.net_margin)
     
-    # 生成摘要
+    # Generate summary
     status_text = {
-        ProfitStatus.HEALTHY: "✅ 健康",
-        ProfitStatus.WARNING: "⚠️ 警告",
-        ProfitStatus.DANGER: "🔴 危险",
-        ProfitStatus.LOSS: "💀 亏损",
+        ProfitStatus.HEALTHY: "✅ Healthy",
+        ProfitStatus.WARNING: "⚠️ Warning",
+        ProfitStatus.DANGER: "🔴 Danger",
+        ProfitStatus.LOSS: "💀 Loss",
     }
-    summary = f"{status_text[status]} | 净利率 {costs.net_margin*100:.1f}% | 单件利润 ${costs.net_profit:.2f}"
+    summary = f"{status_text[status]} | Net Margin {costs.net_margin*100:.1f}% | Profit/Unit ${costs.net_profit:.2f}"
     
     return AnalysisResult(
         product=product,
@@ -331,73 +330,73 @@ def analyze_product(product: ProductInput, target_margins: List[float] = None) -
 
 
 def analyze_batch(products: List[ProductInput], target_margins: List[float] = None) -> List[AnalysisResult]:
-    """批量分析"""
+    """Batch analysis"""
     return [analyze_product(p, target_margins) for p in products]
 
 
 # ============================================================
-# 输出格式化
+# Output Formatting
 # ============================================================
 
 def format_cost_breakdown(costs: CostBreakdown) -> str:
-    """格式化成本明细"""
+    """Format cost breakdown"""
     def pct(val):
         return f"{val/costs.selling_price*100:.1f}%" if costs.selling_price > 0 else "0%"
     
     lines = [
-        f"售价              ${costs.selling_price:.2f}   100%",
-        "─" * 35,
-        f"产品成本          -${costs.product_cost:.2f}    {pct(costs.product_cost)}",
-        f"头程运费          -${costs.shipping_cost:.2f}    {pct(costs.shipping_cost)}",
-        f"FBA 配送费        -${costs.fba_fulfillment_fee:.2f}    {pct(costs.fba_fulfillment_fee)}",
-        f"FBA 仓储费        -${costs.fba_storage_fee:.2f}    {pct(costs.fba_storage_fee)}",
-        f"Referral Fee      -${costs.referral_fee:.2f}    {pct(costs.referral_fee)}",
-        f"广告费            -${costs.ad_cost:.2f}    {pct(costs.ad_cost)}",
-        f"退货成本          -${costs.return_cost:.2f}    {pct(costs.return_cost)}",
-        f"其他杂费          -${costs.other_fees:.2f}    {pct(costs.other_fees)}",
-        "─" * 35,
-        f"总成本            ${costs.total_cost:.2f}    {pct(costs.total_cost)}",
-        f"净利润            ${costs.net_profit:.2f}    {costs.net_margin*100:.1f}%",
+        f"Selling Price         ${costs.selling_price:.2f}   100%",
+        "─" * 40,
+        f"Product Cost          -${costs.product_cost:.2f}    {pct(costs.product_cost)}",
+        f"Inbound Shipping      -${costs.shipping_cost:.2f}    {pct(costs.shipping_cost)}",
+        f"FBA Fulfillment       -${costs.fba_fulfillment_fee:.2f}    {pct(costs.fba_fulfillment_fee)}",
+        f"FBA Storage           -${costs.fba_storage_fee:.2f}    {pct(costs.fba_storage_fee)}",
+        f"Referral Fee          -${costs.referral_fee:.2f}    {pct(costs.referral_fee)}",
+        f"Advertising           -${costs.ad_cost:.2f}    {pct(costs.ad_cost)}",
+        f"Returns               -${costs.return_cost:.2f}    {pct(costs.return_cost)}",
+        f"Other Fees            -${costs.other_fees:.2f}    {pct(costs.other_fees)}",
+        "─" * 40,
+        f"Total Cost            ${costs.total_cost:.2f}    {pct(costs.total_cost)}",
+        f"Net Profit            ${costs.net_profit:.2f}    {costs.net_margin*100:.1f}%",
     ]
     return "\n".join(lines)
 
 
 def format_break_even(be: BreakEvenAnalysis, current_price: float) -> str:
-    """格式化盈亏平衡分析"""
+    """Format break-even analysis"""
     lines = [
-        f"最低售价 (保本): ${be.min_price:.2f}",
-        f"├── 低于此价格将亏损",
+        f"Break-even Price: ${be.min_price:.2f}",
+        f"├── Below this price = Loss",
         f"",
-        f"当前售价: ${current_price:.2f}",
-        f"├── 高于保本价 {be.current_margin_above_min*100:.1f}%",
+        f"Current Price: ${current_price:.2f}",
+        f"├── {be.current_margin_above_min*100:.1f}% above break-even",
         f"",
-        f"安全边际: {be.safety_margin*100:.1f}%",
-        f"├── 价格下降空间",
+        f"Safety Margin: {be.safety_margin*100:.1f}%",
+        f"├── Room for price reduction",
     ]
     if be.break_even_units > 0:
         lines.extend([
             f"",
-            f"保本销量: {be.break_even_units} 件",
-            f"├── 覆盖固定成本所需销量",
+            f"Break-even Units: {be.break_even_units}",
+            f"├── Units needed to cover fixed costs",
         ])
     return "\n".join(lines)
 
 
 def format_pricing_suggestions(suggestions: List[PricingSuggestion], current_price: float, current_margin: float) -> str:
-    """格式化定价建议"""
+    """Format pricing recommendations"""
     lines = [
-        "| 目标利润率 | 建议售价 | 单件利润 |",
-        "|-----------|---------|---------|",
+        "| Target Margin | Recommended Price | Profit/Unit |",
+        "|---------------|-------------------|-------------|",
     ]
     for s in suggestions:
         lines.append(f"| {s.target_margin*100:.0f}% | ${s.suggested_price:.2f} | ${s.profit_per_unit:.2f} |")
     
-    lines.append(f"\n当前售价 ${current_price:.2f} → 净利率 {current_margin*100:.1f}%")
+    lines.append(f"\nCurrent Price ${current_price:.2f} → Net Margin {current_margin*100:.1f}%")
     return "\n".join(lines)
 
 
 def format_full_report(result: AnalysisResult) -> str:
-    """生成完整报告"""
+    """Generate full report"""
     status_icons = {
         ProfitStatus.HEALTHY: "✅",
         ProfitStatus.WARNING: "⚠️",
@@ -406,14 +405,14 @@ def format_full_report(result: AnalysisResult) -> str:
     }
     
     report = f"""
-💰 **亚马逊利润分析报告**
+💰 **Amazon Profit Analysis Report**
 
-**产品**: {result.product.name} ({result.product.sku})
-**状态**: {status_icons[result.status]} {result.summary}
+**Product**: {result.product.name} ({result.product.sku})
+**Status**: {status_icons[result.status]} {result.summary}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📊 **成本明细**
+📊 **Cost Breakdown**
 
 ```
 {format_cost_breakdown(result.cost_breakdown)}
@@ -421,13 +420,13 @@ def format_full_report(result: AnalysisResult) -> str:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📈 **盈亏平衡分析**
+📈 **Break-Even Analysis**
 
 {format_break_even(result.break_even, result.product.selling_price)}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-💡 **定价建议**
+💡 **Pricing Recommendations**
 
 {format_pricing_suggestions(result.pricing_suggestions, result.product.selling_price, result.cost_breakdown.net_margin)}
 
@@ -436,7 +435,7 @@ def format_full_report(result: AnalysisResult) -> str:
 
 
 def format_batch_summary(results: List[AnalysisResult]) -> str:
-    """格式化批量分析汇总"""
+    """Format batch analysis summary"""
     status_icons = {
         ProfitStatus.HEALTHY: "✅",
         ProfitStatus.WARNING: "⚠️",
@@ -445,10 +444,10 @@ def format_batch_summary(results: List[AnalysisResult]) -> str:
     }
     
     lines = [
-        "📊 **批量分析汇总**",
+        "📊 **Batch Analysis Summary**",
         "",
-        "| SKU | 售价 | 总成本 | 净利润 | 利润率 | 状态 |",
-        "|-----|------|--------|--------|--------|------|",
+        "| SKU | Price | Total Cost | Net Profit | Margin | Status |",
+        "|-----|-------|------------|------------|--------|--------|",
     ]
     
     total_profit = 0
@@ -459,25 +458,25 @@ def format_batch_summary(results: List[AnalysisResult]) -> str:
         total_profit += c.net_profit
     
     lines.append("")
-    lines.append(f"**总计**: {len(results)} 个 SKU | 平均单件利润 ${total_profit/len(results):.2f}")
+    lines.append(f"**Total**: {len(results)} SKUs | Avg Profit/Unit ${total_profit/len(results):.2f}")
     
-    # 统计
+    # Statistics
     healthy = sum(1 for r in results if r.status == ProfitStatus.HEALTHY)
     warning = sum(1 for r in results if r.status == ProfitStatus.WARNING)
     danger = sum(1 for r in results if r.status == ProfitStatus.DANGER)
     loss = sum(1 for r in results if r.status == ProfitStatus.LOSS)
     
-    lines.append(f"**状态分布**: ✅ {healthy} | ⚠️ {warning} | 🔴 {danger} | 💀 {loss}")
+    lines.append(f"**Status Distribution**: ✅ {healthy} | ⚠️ {warning} | 🔴 {danger} | 💀 {loss}")
     
     return "\n".join(lines)
 
 
 # ============================================================
-# CSV 批量处理
+# CSV Batch Processing
 # ============================================================
 
 def parse_csv(csv_content: str) -> List[ProductInput]:
-    """解析 CSV 内容"""
+    """Parse CSV content"""
     products = []
     reader = csv.DictReader(csv_content.strip().split('\n'))
     
@@ -502,12 +501,12 @@ def parse_csv(csv_content: str) -> List[ProductInput]:
 
 
 # ============================================================
-# CLI 入口
+# CLI Entry Point
 # ============================================================
 
 def main():
-    """命令行入口"""
-    # 默认测试数据
+    """Command line entry"""
+    # Default test data
     test_product = ProductInput(
         sku="TEST001",
         name="Kitchen Gadget",
@@ -523,12 +522,12 @@ def main():
         category="kitchen",
     )
     
-    # 如果有 JSON 输入
+    # If JSON input provided
     if len(sys.argv) > 1:
         try:
             input_data = json.loads(sys.argv[1])
             if isinstance(input_data, list):
-                # 批量模式
+                # Batch mode
                 products = [ProductInput(**p) for p in input_data]
                 results = analyze_batch(products)
                 print(format_batch_summary(results))
@@ -539,7 +538,7 @@ def main():
             print(f"Error: {e}")
             sys.exit(1)
     
-    # 单品分析
+    # Single product analysis
     result = analyze_product(test_product)
     print(format_full_report(result))
 
