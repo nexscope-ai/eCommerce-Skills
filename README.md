@@ -14,6 +14,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — recommends ad platforms (Google, Meta, TikTok), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. | ✅ Available |
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing strategy builder — covers paid ads, SEO, email/SMS, content, social media, influencers, and referral programs. Includes audience persona, competitive landscape, channel prioritization, budget allocation, and a 90-day action plan. | ✅ Available |
 | [product-description-generator](./product-description-generator/) | E-commerce product description generator for any platform. Generates optimized titles, bullet points, descriptions, and backend keywords using competitor research + keyword scoring + FABE copywriting. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
+| [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Complete email marketing system builder — creates 10 core automation flows (welcome, cart abandonment, browse abandonment, post-purchase, review request, cross-sell, win-back, VIP/loyalty, replenishment, sunset) with full copywriting, A/B test subject lines, ESP setup instructions, segmentation rules, and annual campaign calendars. | ✅ Available |
 
 ## Quick Install
 
@@ -39,6 +40,10 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy
 
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
+```
+
+```bash
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-builder -g
 ```
 
 ## Usage
@@ -95,6 +100,18 @@ Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
 Target audience: gift buyers. Tone: Luxury. Generate a full listing.
 ```
 
+### 📧 ecommerce-email-marketing-builder
+
+```
+I'm launching a Shopify store selling premium dog treats at $24.99. Help me set up 
+my email marketing — I'm using Klaviyo and have about 500 subscribers.
+```
+
+```
+I sell handmade jewelry on Etsy and my own website. Price range $40-120. I have 
+2,000 email subscribers but no automated flows set up. What emails should I be sending?
+```
+
 ## Skill Categories
 
 *Skills are being built and published progressively. Star this repo to get notified!*
@@ -107,12 +124,12 @@ Target audience: gift buyers. Tone: Luxury. Generate a full listing.
 | 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
 | 📢 | **Advertising** | 7 | ✅ 1 available |
 | 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
-| 🛒 | **E-Commerce Marketing** | 7 | ✅ 2 available |
+| 🛒 | **E-Commerce Marketing** | 7 | ✅ 3 available |
 | 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
 | 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
 | 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
 
-**Current: 4 skills available · 63 more planned**
+**Current: 5 skills available · 62 more planned**
 
 ## Why Free?
 
