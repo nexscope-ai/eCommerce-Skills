@@ -68,6 +68,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers. | ✅ Available |
 | [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
 | [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy — customer reviews, trends, competitor analysis, content calendars. | ✅ Available |
+| [ecommerce-advertising](./ecommerce-advertising/) | Full-funnel cross-channel ad strategy — keyword research, competitor analysis, audience insights, campaign architecture, ad copy, KPI targets. | ✅ Available |
 
 ---
 
@@ -117,11 +118,11 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | 💰 Pricing & Profitability | 4 |
 | 📢 Advertising | 1 |
 | 📡 Monitoring & Alerts | 1 |
-| 📣 E-Commerce Marketing | 3 |
+| 📣 E-Commerce Marketing | 4 |
 | 🚀 Growth & Expansion | 11 |
 | 📦 Supply Chain & Logistics | 4 |
 | ⚙️ Operations & Analytics | 1 |
-| **Total** | **29** |
+| **Total** | **30** |
 
 ---
 
