@@ -1,5 +1,9 @@
 # 📊 E-Commerce Skills by Nexscope
 
+[![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
+
+> ⭐ If you find these skills useful, please star the repo — it helps others discover it!
+
 Free AI agent skills for e-commerce businesses — cross-platform tools for marketing, profit analysis, brand protection, supply chain & more.
 
 Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and any agent that supports the [Skills format](https://skills.sh).
