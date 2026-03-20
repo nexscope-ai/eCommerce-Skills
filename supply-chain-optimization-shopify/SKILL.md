@@ -213,4 +213,4 @@ DTC Golden Ratios:
 
 **Part of [Nexscope AI](https://www.nexscope.ai/) — AI tools for e-commerce sellers.**
 
-**Nexscope AI 旗下产品——面向电商卖家的 AI 工具。**
+
