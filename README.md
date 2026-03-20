@@ -16,7 +16,17 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ## 📋 Available Skills
 
-### 📝 Listing & Content
+### 🕵️ Competitor Analysis
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [amazon-review-checker](./review-checker/amazon-review-checker/) | Amazon review authenticity — fake reviews, time clustering, verified purchase validation. | ✅ Available |
+| [ebay-review-checker](./review-checker/ebay-review-checker/) | eBay review authenticity — fake feedback, suspicious patterns, buyer manipulation. | ✅ Available |
+| [walmart-review-checker](./review-checker/walmart-review-checker/) | Walmart review authenticity — fake reviews, WFS verified badge analysis, red flags. | ✅ Available |
+
+---
+
+### 📝 Listing Optimization
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -35,43 +45,43 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🚀 Growth & Expansion
-
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [ecommerce-growth-strategy](./ecommerce-growth-strategy/) | Strategic growth advisor — unit economics diagnosis, Ansoff Matrix, 5 growth levers, multichannel expansion, 90-day roadmap. | ✅ Available |
-| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
-
----
-
-### 📢 Marketing & Advertising
+### 📢 Advertising
 
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation. | ✅ Available |
+
+---
+
+### 📡 Monitoring & Alerts
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [brand-monitoring](./brand-monitoring/) | Brand mention tracking across Reddit, Google News, YouTube, DuckDuckGo. Sentiment analysis, crisis detection. | ✅ Available |
+
+---
+
+### 📣 E-Commerce Marketing
+
+| Skill | Description | Status |
+|-------|-------------|--------|
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers. | ✅ Available |
 | [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
 | [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy — customer reviews, trends, competitor analysis, content calendars. | ✅ Available |
 
 ---
 
-### 🛡️ Brand Protection & Monitoring
+### 🚀 Growth & Expansion
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [brand-monitoring](./brand-monitoring/) | Brand mention tracking across Reddit, Google News, YouTube, DuckDuckGo. Sentiment analysis, crisis detection. | ✅ Available |
+| [ecommerce-growth-strategy](./ecommerce-growth-strategy/) | Strategic growth advisor — unit economics diagnosis, Ansoff Matrix, 5 growth levers, multichannel expansion, 90-day roadmap. | ✅ Available |
+| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
 | [brand-protection-amazon](./brand-protection/brand-protection-amazon/) | Amazon brand protection — hijackers, counterfeits, MAP violations, Brand Registry. | ✅ Available |
 | [brand-protection-ebay](./brand-protection/brand-protection-ebay/) | eBay brand protection — unauthorized sellers, counterfeits, VeRO complaints. | ✅ Available |
 | [brand-protection-shopify](./brand-protection/brand-protection-shopify/) | Shopify/DTC brand protection — counterfeit stores, DMCA takedowns, domain monitoring. | ✅ Available |
 | [brand-protection-tiktok](./brand-protection/brand-protection-tiktok/) | TikTok Shop brand protection — counterfeit detection, IP reporting, seller violations. | ✅ Available |
 | [brand-protection-walmart](./brand-protection/brand-protection-walmart/) | Walmart brand protection — unauthorized sellers, MAP violations, IP infringement. | ✅ Available |
-
----
-
-### 🎯 Product Differentiation
-
-| Skill | Description | Status |
-|-------|-------------|--------|
 | [product-differentiation-amazon](./product-differentiation/product-differentiation-amazon/) | Amazon differentiation — competitor weaknesses, negative review pain points, USP generation. | ✅ Available |
 | [product-differentiation-ebay](./product-differentiation/product-differentiation-ebay/) | eBay differentiation — competitor analysis, listing gaps, unique selling points. | ✅ Available |
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
@@ -90,17 +100,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 ---
 
-### 🔍 Review Analysis
-
-| Skill | Description | Status |
-|-------|-------------|--------|
-| [amazon-review-checker](./review-checker/amazon-review-checker/) | Amazon review authenticity — fake reviews, time clustering, verified purchase validation. | ✅ Available |
-| [ebay-review-checker](./review-checker/ebay-review-checker/) | eBay review authenticity — fake feedback, suspicious patterns, buyer manipulation. | ✅ Available |
-| [walmart-review-checker](./review-checker/walmart-review-checker/) | Walmart review authenticity — fake reviews, WFS verified badge analysis, red flags. | ✅ Available |
-
----
-
-### 🏭 Operations & Inventory
+### ⚙️ Operations & Analytics
 
 | Skill | Description | Status |
 |-------|-------------|--------|
@@ -112,15 +112,15 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Category | Skills |
 |----------|:------:|
-| 📝 Listing & Content | 1 |
+| 🕵️ Competitor Analysis | 3 |
+| 📝 Listing Optimization | 1 |
 | 💰 Pricing & Profitability | 4 |
-| 🚀 Growth & Expansion | 2 |
-| 📢 Marketing & Advertising | 4 |
-| 🛡️ Brand Protection & Monitoring | 6 |
-| 🎯 Product Differentiation | 4 |
+| 📢 Advertising | 1 |
+| 📡 Monitoring & Alerts | 1 |
+| 📣 E-Commerce Marketing | 3 |
+| 🚀 Growth & Expansion | 11 |
 | 📦 Supply Chain & Logistics | 4 |
-| 🔍 Review Analysis | 3 |
-| 🏭 Operations & Inventory | 1 |
+| ⚙️ Operations & Analytics | 1 |
 | **Total** | **29** |
 
 ---
@@ -136,8 +136,8 @@ npx skills add nexscope-ai/eCommerce-Skills -g
 ### Install a specific skill
 
 ```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill warehouse-optimization -g
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-content-marketing -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-growth-strategy -g
+npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-builder -g
 npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-amazon -g
 npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-shopify -g
 ```
@@ -146,12 +146,17 @@ npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/pro
 
 ## 💡 Usage Examples
 
+### 🚀 Growth & Expansion
+```
+I sell pet clothes on Shopify, doing $8K/month. How do I get to $20K in 6 months?
+```
+
 ### 💰 Pricing & Profitability
 ```
 Calculate my Shopify margins: Product cost $12, shipping $4, price $39.99, CAC $15
 ```
 
-### 📢 Marketing
+### 📣 Marketing
 ```
 Build a content marketing strategy for my portable blender brand. Platforms: TikTok, Instagram.
 ```
@@ -166,7 +171,7 @@ I found a hijacker on my Amazon listing. Help me file a Brand Registry complaint
 My TikTok Shop return rate is 18%. Affiliate commissions eating my margins. How to optimize?
 ```
 
-### 🏭 Operations
+### ⚙️ Operations
 ```
 I use FBA. My IPI score dropped to 400 and I have excess inventory warnings. How do I fix this?
 ```
