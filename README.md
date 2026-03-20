@@ -1,20 +1,54 @@
 # 📊 E-Commerce Skills by Nexscope
 
-Free AI agent skills for e-commerce businesses — cross-platform tools for product research, PPC strategy, listing optimization, supply chain & more.
+Free AI agent skills for e-commerce businesses — cross-platform tools for marketing, profit analysis, brand protection, supply chain & more.
 
 Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and any agent that supports the [Skills format](https://skills.sh).
 
-> **🔍 Need Amazon-specific tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA, Amazon PPC, listing optimization, and keyword research.
+> **🔍 Need Amazon-specific tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA calculators, listing optimization, PPC campaigns, and keyword research.
 
 ## Available Skills
 
+### 📢 Marketing & Content
+
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy planner — analyzes customer reviews, trends, competitor content, and SEO opportunities to generate content calendars, topic ideas, and platform-specific strategies. Supports TikTok, Instagram, YouTube, X, Pinterest, Blog, Amazon A+. | ✅ Available |
-| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy planner — recommends ad platforms (Google, Meta, TikTok), calculates ROAS targets, allocates budget, and generates campaign briefs with ad copy + creative asset prompts. | ✅ Available |
-| [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing strategy builder — covers paid ads, SEO, email/SMS, content, social media, influencers, and referral programs. Includes audience persona, competitive landscape, channel prioritization, budget allocation, and a 90-day action plan. | ✅ Available |
-| [product-description-generator](./product-description-generator/) | E-commerce product description generator for any platform. Generates optimized titles, bullet points, descriptions, and backend keywords using competitor research + keyword scoring + FABE copywriting. Supports Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
-| [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Complete email marketing system builder — creates 10 core automation flows (welcome, cart abandonment, browse abandonment, post-purchase, review request, cross-sell, win-back, VIP/loyalty, replenishment, sunset) with full copywriting, A/B test subject lines, ESP setup instructions, segmentation rules, and annual campaign calendars. | ✅ Available |
+| [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy planner — customer reviews, trends, competitor analysis, content calendars, platform-specific strategies. | ✅ Available |
+| [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, and automation strategies. | ✅ Available |
+| [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation, campaign briefs. | ✅ Available |
+| [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers, referrals. | ✅ Available |
+| [product-description-generator](./product-description-generator/) | Product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop, Lazada, Shopee. | ✅ Available |
+
+### 💰 Profit & Pricing
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [profit-margin-calculator-shopify](./profit-margin-calculator-shopify/) | Shopify/DTC profit calculator — ad spend, CAC, payment processing, 3PL costs, LTV/CAC analysis. | ✅ Available |
+| [profit-margin-calculator-walmart](./profit-margin-calculator-walmart/) | Walmart profit calculator — WFS fulfillment, storage fees, referral fees. FBA comparison included. | ✅ Available |
+| [profit-margin-calculator-tiktok](./profit-margin-calculator-tiktok/) | TikTok Shop profit calculator — affiliate commissions, platform fees, FBT costs, return rate analysis. | ✅ Available |
+
+### 🛡️ Brand Protection
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [brand-protection-shopify](./brand-protection-shopify/) | Shopify/DTC brand protection — counterfeit stores, unauthorized resellers, DMCA takedown templates. | ✅ Available |
+| [brand-protection-ebay](./brand-protection-ebay/) | eBay brand protection — unauthorized sellers, counterfeits, VeRO violations, complaint templates. | ✅ Available |
+| [brand-protection-walmart](./brand-protection-walmart/) | Walmart brand protection — unauthorized sellers, MAP violations, IP infringement reporting. | ✅ Available |
+| [brand-protection-tiktok](./brand-protection-tiktok/) | TikTok Shop brand protection — counterfeit detection, IP reporting, seller violation tracking. | ✅ Available |
+
+### 🔍 Review Analysis
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [ebay-review-checker](./ebay-review-checker/) | eBay review authenticity analyzer — fake reviews, suspicious feedback patterns, buyer manipulation. | ✅ Available |
+| [walmart-review-checker](./walmart-review-checker/) | Walmart review authenticity analyzer — fake reviews, WFS verified badge analysis, red flags. | ✅ Available |
+
+### 📦 Supply Chain
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [supply-chain-optimization-shopify](./supply-chain-optimization-shopify/) | Shopify/DTC supply chain analyzer — cash flow, inventory, shipping costs, CAC/LTV, 3PL optimization. | ✅ Available |
+| [supply-chain-optimization-walmart](./supply-chain-optimization-walmart/) | Walmart supply chain analyzer — WFS costs, referral fees, Walmart Connect ads, FBA comparison. | ✅ Available |
+| [supply-chain-optimization-tiktok](./supply-chain-optimization-tiktok/) | TikTok Shop supply chain analyzer — affiliate payouts, return rates, viral product lifecycle. | ✅ Available |
 
 ## Quick Install
 
@@ -31,19 +65,15 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-content-marketing 
 ```
 
 ```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-ppc-strategy-planner -g
+npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator-shopify -g
 ```
 
 ```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy-builder -g
+npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection-walmart -g
 ```
 
 ```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generator -g
-```
-
-```bash
-npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-builder -g
+npx skills add nexscope-ai/eCommerce-Skills --skill supply-chain-optimization-tiktok -g
 ```
 
 ## Usage
@@ -51,91 +81,60 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-bu
 Once installed, just ask your AI agent naturally. The agent will automatically pick the right skill.
 
 ### 📣 ecommerce-content-marketing
-
 ```
-Build a content marketing strategy for my portable blender brand.
-Target market: US. Platforms: TikTok, Instagram, Blog.
-Content goal: Brand awareness + conversions.
-```
-
-```
-Audit my content strategy. Here's my TikTok: @mybrandhandle
-Compare against competitors: @competitor1, @competitor2
-Find gaps and opportunities.
-```
-
-### 📢 ecommerce-ppc-strategy-planner
-
-```
-I sell handmade candles on Shopify. Price $34, cost $8. Monthly ad budget $2,000. Help me plan which platforms to advertise on.
-```
-
-```
-Running Google Shopping (ROAS 3.2x, $3,000/mo) and Facebook ($1,800/mo, ROAS 1.4x). Margin is 45%. Should I shift budget?
-```
-
-### 🎯 ecommerce-marketing-strategy-builder
-
-```
-I'm launching a Shopify store selling premium dog treats, $24.99 per bag. Margin is 65%. 
-Budget: $3,000/month for marketing. Help me build a marketing strategy.
-```
-
-```
-I sell handmade jewelry on Etsy and my own website. Price range $40-120. I have 2,000 
-Instagram followers and 800 email subscribers. Monthly marketing budget is $1,500. 
-I want to grow beyond Etsy. What's my strategy?
-```
-
-### 📝 product-description-generator
-
-```
-Analyze these competitors and create a listing for my yoga mat:
-https://www.amazon.com/dp/B07K47PQZV, https://www.amazon.com/dp/B01NCBX6LZ
-My product: 6mm TPE, non-slip, carrying strap. Brand: ZenMat. Platform: Amazon US.
-```
-
-```
-Platform: Etsy. Product: hand-poured soy candle, lavender scent, 8oz glass jar.
-Target audience: gift buyers. Tone: Luxury. Generate a full listing.
+Build a content marketing strategy for my portable blender brand. Platforms: TikTok, Instagram, Blog.
 ```
 
 ### 📧 ecommerce-email-marketing-builder
-
 ```
-I'm launching a Shopify store selling premium dog treats at $24.99. Help me set up 
-my email marketing — I'm using Klaviyo and have about 500 subscribers.
+Create an email welcome sequence for my Shopify store selling skincare products.
 ```
 
+### 💰 profit-margin-calculator-shopify
 ```
-I sell handmade jewelry on Etsy and my own website. Price range $40-120. I have 
-2,000 email subscribers but no automated flows set up. What emails should I be sending?
+Calculate margins: Product cost $12, shipping $4, price $39.99, CAC $15, 3PL $3
 ```
 
-## Skill Categories
+### 💰 profit-margin-calculator-walmart
+```
+Calculate Walmart margins: Product cost $8, WFS fulfillment, selling price $24.99
+```
 
-*Skills are being built and published progressively. Star this repo to get notified!*
+### 🛡️ brand-protection-shopify
+```
+I found a copycat store selling fake versions of my product. Help me send a DMCA takedown.
+```
 
-| # | Category | Skills | Status |
-|:-:|----------|:------:|:------:|
-| 🔍 | **Product Research** | 8 | 🔜 Coming soon |
-| 🕵️ | **Competitor Analysis** | 6 | 🔜 Coming soon |
-| 📝 | **Listing Optimization** | 8 | ✅ 1 available |
-| 💰 | **Pricing & Profitability** | 6 | 🔜 Coming soon |
-| 📢 | **Advertising** | 7 | ✅ 1 available |
-| 🔔 | **Monitoring & Alerts** | 5 | 🔜 Coming soon |
-| 🛒 | **E-Commerce Marketing** | 7 | ✅ 3 available |
-| 🚀 | **Growth & Expansion** | 7 | 🔜 Coming soon |
-| 🏭 | **Supply Chain & Logistics** | 6 | 🔜 Coming soon |
-| 📊 | **Operations & Analytics** | 7 | 🔜 Coming soon |
+### 🔍 walmart-review-checker
+```
+Analyze reviews for this Walmart product — are they authentic or manipulated?
+```
 
-**Current: 5 skills available · 62 more planned**
+### 📦 supply-chain-optimization-tiktok
+```
+My TikTok Shop return rate is 18%. Affiliate commissions eating my margins. How to optimize?
+```
+
+## Summary
+
+| Category | Skills |
+|----------|:------:|
+| 📢 Marketing & Content | 5 |
+| 💰 Profit & Pricing | 3 |
+| 🛡️ Brand Protection | 4 |
+| 🔍 Review Analysis | 2 |
+| 📦 Supply Chain | 3 |
+| **Total** | **17** |
 
 ## Why Free?
 
 These skills use publicly available data and proven frameworks — no API key, no paid subscription, no setup friction. Install and go.
 
-Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions. Research products, validate demand, spot trends, and get clear next steps in one conversation.
+Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions.
+
+## Related
+
+Looking for Amazon-specific tools? Check out **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — keyword research, listing optimization, FBA calculators, PPC campaigns, sales estimation & more.
 
 ## License
 
