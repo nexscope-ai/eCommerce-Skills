@@ -1,6 +1,6 @@
 ![eCommerce Skills Banner](./banner.png)
 
-# 📊 E-Commerce Skills by Nexscope
+# 📊 E-Commerce Skills 
 
 [![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
 
