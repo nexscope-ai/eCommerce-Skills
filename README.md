@@ -1,6 +1,6 @@
 ![eCommerce Skills Banner](./banner.png)
 
-# 📊 E-Commerce Skills 
+# 📊 E-Commerce Skills by Nexscope
 
 [![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
 
@@ -12,9 +12,21 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 > **🔍 Need Amazon-specific tools?** Check out [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) for FBA calculators, listing optimization, PPC campaigns, keyword research, and more.
 
+**Status key:** ✅ Available (production-ready) · 🔶 Beta (functional, being improved)
+
 ---
 
 ## 📋 Available Skills
+
+### 🔍 Product Research
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [ecommerce-keyword-research](./ecommerce-keyword-research/) | Cross-platform keyword research — Amazon, Shopify, Etsy, Google Shopping, TikTok Shop, Walmart. | 🔶 Beta |
+| [dropshipping-product-research](./dropshipping-product-research/) | Dropshipping product research — supplier reliability, margin analysis, marketing viability. | 🔶 Beta |
+| [market-gap-analysis](./market-gap-analysis/) | Identify underserved market gaps — competitor blind spots, review pain points, search demand gaps. | 🔶 Beta |
+
+---
 
 ### 🕵️ Competitor Analysis
 
@@ -23,6 +35,9 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [amazon-review-checker](./review-checker/amazon-review-checker/) | Amazon review authenticity — fake reviews, time clustering, verified purchase validation. | ✅ Available |
 | [ebay-review-checker](./review-checker/ebay-review-checker/) | eBay review authenticity — fake feedback, suspicious patterns, buyer manipulation. | ✅ Available |
 | [walmart-review-checker](./review-checker/walmart-review-checker/) | Walmart review authenticity — fake reviews, WFS verified badge analysis, red flags. | ✅ Available |
+| [competitor-price-analysis](./competitor-price-analysis/) | Competitor pricing strategy analysis — price mapping, gaps, elasticity signals. | 🔶 Beta |
+| [ecommerce-competitor-analysis](./ecommerce-competitor-analysis/) | Cross-platform competitor analysis — multi-channel presence, strategy, positioning. | 🔶 Beta |
+| [product-review-analysis](./product-review-analysis/) | Product review analysis — pain points, praise patterns, feature requests, sentiment. | 🔶 Beta |
 
 ---
 
@@ -31,6 +46,9 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [product-description-generator](./product-description-generator/) | Product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop. | ✅ Available |
+| [product-title-optimization](./product-title-optimization/) | Product title optimization — platform-specific rules, keyword placement, CTR improvement. | 🔶 Beta |
+| [walmart-listing-optimization](./walmart-listing-optimization/) | Walmart listing optimization — Content Quality Score, search, rich media, attributes. | 🔶 Beta |
+| [product-page-seo](./product-page-seo/) | Product page SEO — structured data, page speed, mobile optimization, content enrichment. | 🔶 Beta |
 
 ---
 
@@ -50,6 +68,8 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation. | ✅ Available |
+| [ecommerce-advertising](./ecommerce-advertising/) | Multi-platform ad strategy — Google, Meta, TikTok, Pinterest. Budget allocation and creative. | ✅ Available |
+| [google-shopping-optimization](./google-shopping-optimization/) | Google Shopping — feed optimization, bidding, Performance Max, ROAS optimization. | 🔶 Beta |
 
 ---
 
@@ -58,6 +78,10 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [brand-monitoring](./brand-monitoring/) | Brand mention tracking across Reddit, Google News, YouTube, DuckDuckGo. Sentiment analysis, crisis detection. | ✅ Available |
+| [review-monitoring](./review-monitoring/) | Review monitoring — negative review alerts, competitor tracking, response workflows. | 🔶 Beta |
+| [sales-tracking-tool](./sales-tracking-tool/) | Sales performance tracking — KPI dashboards, trend analysis, anomaly detection. | 🔶 Beta |
+| [competitor-price-tracker](./competitor-price-tracker/) | Competitor price monitoring — change alerts, promotion detection, price war response. | 🔶 Beta |
+| [social-media-monitor](./social-media-monitor/) | Social media monitoring — mentions, sentiment, competitor activity across platforms. | 🔶 Beta |
 
 ---
 
@@ -68,7 +92,10 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [ecommerce-marketing-strategy-builder](./ecommerce-marketing-strategy-builder/) | Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social, influencers. | ✅ Available |
 | [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder/) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
 | [ecommerce-content-marketing](./ecommerce-content-marketing/) | Content marketing strategy — customer reviews, trends, competitor analysis, content calendars. | ✅ Available |
-| [ecommerce-advertising](./ecommerce-advertising/) | Full-funnel cross-channel ad strategy — keyword research, competitor analysis, audience insights, campaign architecture, ad copy, KPI targets. | ✅ Available |
+| [product-launch-strategy](./product-launch-strategy/) | Product launch playbook — pre-launch, launch day, post-launch for Amazon and Shopify. | 🔶 Beta |
+| [ecommerce-social-media-marketing](./ecommerce-social-media-marketing/) | Social media marketing — content calendars, platform strategy, social commerce. | 🔶 Beta |
+| [ecommerce-branding](./ecommerce-branding/) | E-commerce branding — positioning, messaging, visual identity, brand consistency. | 🔶 Beta |
+| [shopify-marketing](./shopify-marketing/) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | 🔶 Beta |
 
 ---
 
@@ -76,8 +103,8 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [ecommerce-growth-strategy](./ecommerce-growth-strategy/) | Strategic growth advisor — unit economics diagnosis, Ansoff Matrix, 5 growth levers, multichannel expansion, 90-day roadmap. | ✅ Available |
-| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, keyword research, SEO scoring (0-100). | ✅ Available |
+| [ecommerce-growth-strategy](./ecommerce-growth-strategy/) | Strategic growth advisor — unit economics, Ansoff Matrix, 5 growth levers, 90-day roadmap. | ✅ Available |
+| [etsy-seo](./etsy-seo/) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, SEO scoring. | ✅ Available |
 | [brand-protection-amazon](./brand-protection/brand-protection-amazon/) | Amazon brand protection — hijackers, counterfeits, MAP violations, Brand Registry. | ✅ Available |
 | [brand-protection-ebay](./brand-protection/brand-protection-ebay/) | eBay brand protection — unauthorized sellers, counterfeits, VeRO complaints. | ✅ Available |
 | [brand-protection-shopify](./brand-protection/brand-protection-shopify/) | Shopify/DTC brand protection — counterfeit stores, DMCA takedowns, domain monitoring. | ✅ Available |
@@ -87,6 +114,9 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [product-differentiation-ebay](./product-differentiation/product-differentiation-ebay/) | eBay differentiation — competitor analysis, listing gaps, unique selling points. | ✅ Available |
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok/) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
+| [ecommerce-personalization](./ecommerce-personalization/) | Personalization — recommendations, dynamic content, customer segmentation. | 🔶 Beta |
+| [cross-border-ecommerce](./cross-border-ecommerce/) | Cross-border expansion — market selection, logistics, payments, tax compliance. | 🔶 Beta |
+| [ecommerce-business-plan](./ecommerce-business-plan/) | E-commerce business plan — market analysis, financial projections, milestone roadmap. | 🔶 Beta |
 
 ---
 
@@ -98,6 +128,8 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [supply-chain-optimization-shopify](./supply-chain-optimization/supply-chain-optimization-shopify/) | Shopify/DTC supply chain — cash flow, inventory, shipping costs, 3PL optimization. | ✅ Available |
 | [supply-chain-optimization-tiktok](./supply-chain-optimization/supply-chain-optimization-tiktok/) | TikTok Shop supply chain — affiliate payouts, return rates, viral product lifecycle. | ✅ Available |
 | [supply-chain-optimization-walmart](./supply-chain-optimization/supply-chain-optimization-walmart/) | Walmart supply chain — WFS costs, referral fees, Walmart Connect ads, comparison. | ✅ Available |
+| [ecommerce-returns-management](./ecommerce-returns-management/) | Returns management — rate reduction, reverse logistics, root cause analysis. | 🔶 Beta |
+| [ecommerce-shipping-rates](./ecommerce-shipping-rates/) | Shipping rate comparison — UPS, FedEx, USPS, DHL, zone optimization. | 🔶 Beta |
 
 ---
 
@@ -105,24 +137,27 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [warehouse-optimization](./warehouse-optimization/) | Warehouse & inventory optimization — safety stock, reorder points, ABC analysis, IPI score. Supports FBA, FBM, WFS, 3PL, Shopify, TikTok, Dropship, Hybrid. | ✅ Available |
+| [warehouse-optimization](./warehouse-optimization/) | Warehouse & inventory optimization — safety stock, reorder points, ABC analysis, IPI score. | ✅ Available |
+| [ecommerce-landing-page](./ecommerce-landing-page/) | Landing page audit — CTA, trust signals, copy optimization, A/B testing. | 🔶 Beta |
+| [ecommerce-checkout-optimization](./ecommerce-checkout-optimization/) | Checkout optimization — cart abandonment reduction, payment methods, friction analysis. | 🔶 Beta |
 
 ---
 
 ## 📊 Summary
 
-| Category | Skills |
-|----------|:------:|
-| 🕵️ Competitor Analysis | 3 |
-| 📝 Listing Optimization | 1 |
-| 💰 Pricing & Profitability | 4 |
-| 📢 Advertising | 1 |
-| 📡 Monitoring & Alerts | 1 |
-| 📣 E-Commerce Marketing | 4 |
-| 🚀 Growth & Expansion | 11 |
-| 📦 Supply Chain & Logistics | 4 |
-| ⚙️ Operations & Analytics | 1 |
-| **Total** | **30** |
+| Category | ✅ Available | 🔶 Beta | Total |
+|----------|:---:|:---:|:---:|
+| 🔍 Product Research | 0 | 3 | 3 |
+| 🕵️ Competitor Analysis | 3 | 3 | 6 |
+| 📝 Listing Optimization | 1 | 3 | 4 |
+| 💰 Pricing & Profitability | 4 | 0 | 4 |
+| 📢 Advertising | 2 | 1 | 3 |
+| 📡 Monitoring & Alerts | 1 | 4 | 5 |
+| 📣 E-Commerce Marketing | 3 | 4 | 7 |
+| 🚀 Growth & Expansion | 11 | 3 | 14 |
+| 📦 Supply Chain & Logistics | 4 | 2 | 6 |
+| ⚙️ Operations & Analytics | 1 | 2 | 3 |
+| **Total** | **30** | **25** | **55** |
 
 ---
 
@@ -141,6 +176,12 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-growth-strategy -g
 npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-email-marketing-builder -g
 npx skills add nexscope-ai/eCommerce-Skills --skill brand-protection/brand-protection-amazon -g
 npx skills add nexscope-ai/eCommerce-Skills --skill profit-margin-calculator/profit-margin-calculator-shopify -g
+```
+
+### Install the plugin (all skills + tools)
+
+```bash
+openclaw plugins install @nexscope/ecommerce-tools
 ```
 
 ---
@@ -189,7 +230,8 @@ Want more? **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for sm
 
 ## 🔗 Related
 
-- **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — Amazon-specific tools: FBA calculator, keyword research, listing optimization, PPC campaigns, sales estimation.
+- **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — Amazon-specific tools: FBA calculator, keyword research, listing optimization, PPC campaigns, and more.
+- **[Nexscope Plugin](https://clawhub.ai/plugins/nexscope-ecommerce-tools)** — Install all skills + 9 AI tools in one command.
 
 ---
 
