@@ -68,7 +68,6 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [ecommerce-ppc-strategy-planner](./ecommerce-ppc-strategy-planner/) | Cross-platform PPC strategy — Google, Meta, TikTok ads. ROAS targets, budget allocation. | ✅ Available |
-| [ecommerce-advertising](./ecommerce-advertising/) | Multi-platform ad strategy — Google, Meta, TikTok, Pinterest. Budget allocation and creative. | ✅ Available |
 | [google-shopping-optimization](./google-shopping-optimization/) | Google Shopping — feed optimization, bidding, Performance Max, ROAS optimization. | 🔶 Beta |
 
 ---
@@ -151,13 +150,13 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | 🕵️ Competitor Analysis | 3 | 3 | 6 |
 | 📝 Listing Optimization | 1 | 3 | 4 |
 | 💰 Pricing & Profitability | 4 | 0 | 4 |
-| 📢 Advertising | 2 | 1 | 3 |
+| 📢 Advertising | 1 | 1 | 2 |
 | 📡 Monitoring & Alerts | 1 | 4 | 5 |
 | 📣 E-Commerce Marketing | 3 | 4 | 7 |
 | 🚀 Growth & Expansion | 11 | 3 | 14 |
 | 📦 Supply Chain & Logistics | 4 | 2 | 6 |
 | ⚙️ Operations & Analytics | 1 | 2 | 3 |
-| **Total** | **30** | **25** | **55** |
+| **Total** | **29** | **25** | **54** |
 
 ---
 
