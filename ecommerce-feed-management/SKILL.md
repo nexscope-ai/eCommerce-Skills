@@ -53,4 +53,4 @@ Feed health report, sync error diagnosis, missing SKU detection, attribute compl
 
 ---
 
-*Built by [Nexscope AI](https://www.nexscope.ai/) — AI-powered e-commerce intelligence.*
+*Built by [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce intelligence.*

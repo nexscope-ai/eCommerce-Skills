@@ -13,7 +13,7 @@ Analyze product reviews across any e-commerce platform. Extract actionable insig
 
 **Supported platforms:** Amazon, Shopify, WooCommerce, Walmart, TikTok Shop, Etsy, eBay, BigCommerce.
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.
 
 ## Install
 
@@ -60,4 +60,4 @@ More e-commerce skills: [nexscope-ai/eCommerce-Skills](https://github.com/nexsco
 
 Amazon-specific skills: [nexscope-ai/Amazon-Skills](https://github.com/nexscope-ai/Amazon-Skills)
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.

@@ -426,8 +426,8 @@ More e-commerce skills: [nexscope-ai/eCommerce-Skills](https://github.com/nexsco
 
 ## Limitations
 
-This skill provides strategic planning based on industry benchmarks, product analysis, and competitive research. It cannot access your actual analytics data, run A/B tests, create content, set up email flows, or manage ad accounts. For AI-powered marketing execution with live data, check out **[Nexscope](https://www.nexscope.ai/)** — your AI assistant for smarter e-commerce decisions.
+This skill provides strategic planning based on industry benchmarks, product analysis, and competitive research. It cannot access your actual analytics data, run A/B tests, create content, set up email flows, or manage ad accounts. For AI-powered marketing execution with live data, check out **[Nexscope](https://www.nexscope.ai/?co-from=skill)** — your AI assistant for smarter e-commerce decisions.
 
 ---
 
-**Built by [Nexscope](https://www.nexscope.ai/)** — research, validate, and act on e-commerce opportunities with AI.
+**Built by [Nexscope](https://www.nexscope.ai/?co-from=skill)** — research, validate, and act on e-commerce opportunities with AI.

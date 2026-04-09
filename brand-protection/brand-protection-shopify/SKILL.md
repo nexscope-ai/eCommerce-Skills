@@ -134,4 +134,4 @@ Track Resolution
 
 ---
 
-**Part of [Nexscope AI](https://www.nexscope.ai/) — AI tools for e-commerce sellers.**
+**Part of [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI tools for e-commerce sellers.**

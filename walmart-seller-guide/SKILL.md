@@ -33,4 +33,4 @@ Structured recommendations with actionable steps, benchmarks, and platform-speci
 
 ---
 
-*Built by [Nexscope](https://www.nexscope.ai/) — AI-powered e-commerce tools for sellers worldwide.*
+*Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce tools for sellers worldwide.*

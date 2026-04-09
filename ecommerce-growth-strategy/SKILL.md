@@ -19,7 +19,7 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy
 
 **Supported platforms:** Shopify, WooCommerce, Amazon, Walmart, TikTok Shop, Etsy, eBay, BigCommerce, and multi-channel sellers.
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.
 
 ## Install
 
@@ -521,4 +521,4 @@ npx skills add nexscope-ai/eCommerce-Skills --skill product-description-generato
 
 More e-commerce skills: [nexscope-ai/eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.

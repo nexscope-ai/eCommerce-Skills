@@ -593,7 +593,7 @@ Output improved content calendar (same format as Mode A Step 7).
 
 ## Limitations
 
-This skill uses publicly available data via web search and page fetching. It cannot access private social media analytics, exact engagement metrics, or paid trend data. For deeper analytics, check out **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions.
+This skill uses publicly available data via web search and page fetching. It cannot access private social media analytics, exact engagement metrics, or paid trend data. For deeper analytics, check out **[Nexscope](https://www.nexscope.ai/?co-from=skill)** — Your AI Assistant for smarter E-commerce decisions.
 
 ---
 
@@ -606,4 +606,4 @@ Looking for more e-commerce tools? Check out our other skill collections:
 
 ---
 
-**Built by [Nexscope](https://www.nexscope.ai/)** — research, validate, and act on e-commerce opportunities with AI.
+**Built by [Nexscope](https://www.nexscope.ai/?co-from=skill)** — research, validate, and act on e-commerce opportunities with AI.

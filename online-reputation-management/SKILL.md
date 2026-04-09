@@ -53,4 +53,4 @@ Reputation monitoring plan, negative review response templates, rating recovery 
 
 ---
 
-*Built by [Nexscope AI](https://www.nexscope.ai/) — AI-powered e-commerce intelligence.*
+*Built by [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce intelligence.*

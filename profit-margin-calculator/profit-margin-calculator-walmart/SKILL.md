@@ -79,4 +79,4 @@ Net Profit            $6.19    24.8%
 
 ---
 
-**Part of [Nexscope AI](https://www.nexscope.ai/) — AI tools for e-commerce sellers.**
+**Part of [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI tools for e-commerce sellers.**

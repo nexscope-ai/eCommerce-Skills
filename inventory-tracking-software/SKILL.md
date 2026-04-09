@@ -53,4 +53,4 @@ Inventory monitoring framework, low-stock alert rules, reorder point calculation
 
 ---
 
-*Built by [Nexscope AI](https://www.nexscope.ai/) — AI-powered e-commerce intelligence.*
+*Built by [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce intelligence.*

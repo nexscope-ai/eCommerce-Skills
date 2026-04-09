@@ -53,4 +53,4 @@ Speed diagnostic report, Core Web Vitals improvement plan, theme optimization gu
 
 ---
 
-*Built by [Nexscope AI](https://www.nexscope.ai/) — AI-powered e-commerce intelligence.*
+*Built by [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce intelligence.*

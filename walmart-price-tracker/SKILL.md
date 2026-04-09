@@ -53,4 +53,4 @@ Price trend analysis, competitor price comparison, price band analysis, repricin
 
 ---
 
-*Built by [Nexscope AI](https://www.nexscope.ai/) — AI-powered e-commerce intelligence.*
+*Built by [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI-powered e-commerce intelligence.*

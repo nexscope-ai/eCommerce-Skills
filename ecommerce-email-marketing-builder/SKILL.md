@@ -13,7 +13,7 @@ Build a complete, copy-paste-ready email marketing system for any e-commerce bus
 
 **Supported platforms:** Shopify, WooCommerce, BigCommerce, Squarespace, Etsy, TikTok Shop, Amazon, and any platform that connects to an ESP. For marketplace platforms (Amazon, TikTok Shop, Etsy) where buyer emails are restricted, this skill focuses on cross-channel strategies to capture emails via your own website or landing pages.
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.
 
 ## Install
 
@@ -583,4 +583,4 @@ npx skills add nexscope-ai/eCommerce-Skills --skill ecommerce-marketing-strategy
 
 More e-commerce skills: [nexscope-ai/eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)
 
-Built by [Nexscope](https://www.nexscope.ai/) — your AI assistant for smarter e-commerce decisions.
+Built by [Nexscope](https://www.nexscope.ai/?co-from=skill) — your AI assistant for smarter e-commerce decisions.

@@ -148,5 +148,5 @@ _Version 1.0.0 | Platform: Amazon | Lang: English_
 
 ---
 
-**Part of [Nexscope AI](https://www.nexscope.ai/) — AI tools for e-commerce sellers.**
+**Part of [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI tools for e-commerce sellers.**
 

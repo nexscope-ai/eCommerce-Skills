@@ -239,5 +239,5 @@ This skill calculates margins based on user-provided costs. For real-time FBA fe
 
 ---
 
-**Part of [Nexscope AI](https://www.nexscope.ai/) — AI tools for e-commerce sellers.**
+**Part of [Nexscope AI](https://www.nexscope.ai/?co-from=skill) — AI tools for e-commerce sellers.**
 

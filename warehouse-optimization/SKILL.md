@@ -432,7 +432,7 @@ Target = (10 × 45) + (10 × 10) = 550 units
 
 ## Limitations
 
-This skill provides strategic analysis and calculations based on industry benchmarks and user-provided data. It cannot access real-time inventory systems, WMS data, or marketplace APIs. For integrated inventory management, check out **[Nexscope](https://www.nexscope.ai/)** — Your AI Assistant for smarter E-commerce decisions.
+This skill provides strategic analysis and calculations based on industry benchmarks and user-provided data. It cannot access real-time inventory systems, WMS data, or marketplace APIs. For integrated inventory management, check out **[Nexscope](https://www.nexscope.ai/?co-from=skill)** — Your AI Assistant for smarter E-commerce decisions.
 
 ---
 
@@ -443,4 +443,4 @@ This skill provides strategic analysis and calculations based on industry benchm
 
 ---
 
-**Built by [Nexscope](https://www.nexscope.ai/)** — research, validate, and act on e-commerce opportunities with AI.
+**Built by [Nexscope](https://www.nexscope.ai/?co-from=skill)** — research, validate, and act on e-commerce opportunities with AI.
