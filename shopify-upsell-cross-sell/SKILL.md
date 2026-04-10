@@ -1,12 +1,9 @@
 ---
-name: "shopify-upsell-cross-sell"
+name: shopify-upsell-cross-sell
 description: "Upsell and cross-sell strategy — product recommendations, cart upsells, post-purchase offers, bundles"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "upsell-cross-sell"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Upsell & Cross-Sell

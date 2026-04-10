@@ -1,12 +1,9 @@
 ---
-name: "shopify-international"
+name: shopify-international
 description: "Shopify Markets — multi-currency, translation, duties/taxes, localized pricing, market-specific content"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "international"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify International Selling

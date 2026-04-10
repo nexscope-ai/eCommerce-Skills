@@ -1,12 +1,9 @@
 ---
-name: "shopify-blog-strategy"
+name: shopify-blog-strategy
 description: "Content marketing via Shopify blog — SEO content, product education, buying guides, internal linking"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "blog-strategy"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Blog Strategy

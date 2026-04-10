@@ -1,12 +1,9 @@
 ---
-name: "shopify-app-recommendations"
+name: shopify-app-recommendations
 description: "App stack advisor — essential apps by business stage, cost optimization, performance impact analysis"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "app-recommendations"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify App Recommendations

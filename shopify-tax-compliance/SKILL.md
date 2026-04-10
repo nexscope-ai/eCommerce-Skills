@@ -1,12 +1,9 @@
 ---
-name: "shopify-tax-compliance"
+name: shopify-tax-compliance
 description: "Tax setup and compliance — sales tax, VAT, duty collection, tax-exempt customers, reporting"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "tax-compliance"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Tax Compliance

@@ -1,12 +1,9 @@
 ---
-name: "shopify-migration"
+name: shopify-migration
 description: "Platform migration to Shopify — from WooCommerce, Magento, BigCommerce, data transfer, URL redirects"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "migration"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Migration

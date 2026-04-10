@@ -1,12 +1,9 @@
 ---
-name: "shopify-wholesale-channel"
+name: shopify-wholesale-channel
 description: "B2B/wholesale setup — wholesale pricing, minimum orders, custom catalogs, net payment terms"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "wholesale-channel"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Wholesale Channel

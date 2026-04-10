@@ -1,12 +1,9 @@
 ---
-name: "shopify-cart-abandonment"
+name: shopify-cart-abandonment
 description: "Cart abandonment recovery — email sequences, SMS, retargeting, exit intent, checkout friction audit"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "cart-abandonment"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Cart Abandonment

@@ -1,12 +1,9 @@
 ---
-name: "shopify-product-photography-guide"
+name: shopify-product-photography-guide
 description: "DIY product photography — setup, lighting, backgrounds, editing, lifestyle shots, 360 views"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "product-photography-guide"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Product Photography Guide

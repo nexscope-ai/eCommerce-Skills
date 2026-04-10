@@ -1,12 +1,9 @@
 ---
-name: "shopify-subscription-setup"
+name: shopify-subscription-setup
 description: "Subscription program setup — recurring billing, frequency options, churn reduction, lifetime value"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "subscription-setup"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Subscription Setup

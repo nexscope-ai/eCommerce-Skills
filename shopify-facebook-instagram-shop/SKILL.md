@@ -1,12 +1,9 @@
 ---
-name: "shopify-facebook-instagram-shop"
+name: shopify-facebook-instagram-shop
 description: "Social selling setup — Facebook Shop, Instagram Shopping, product tagging, social checkout"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "facebook-instagram-shop"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Facebook & Instagram Shop

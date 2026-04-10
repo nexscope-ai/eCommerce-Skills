@@ -1,12 +1,9 @@
 ---
-name: "shopify-inventory-management"
+name: shopify-inventory-management
 description: "Multi-location inventory — transfers, low stock alerts, demand forecasting, safety stock, ABC analysis"
-version: "1.0.0"
-status: beta
-tags:
-  - shopify
-  - ecommerce
-  - "inventory-management"
+metadata:
+  nexscope:
+    category: shopify
 ---
 
 # Shopify Inventory Management
