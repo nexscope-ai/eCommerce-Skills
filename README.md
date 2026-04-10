@@ -175,6 +175,26 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [tiktok-shop-seller-guide](./tiktok-shop-seller-guide/) | TikTok Shop guide — listing, content strategy, live selling, creator affiliates. | 🔶 Beta |
 | [walmart-seller-guide](./walmart-seller-guide/) | Walmart Marketplace guide — application, listing, WFS, Connect ads, Pro Seller. | 🔶 Beta |
 | [shopify-store-setup](./shopify-store-setup/) | Shopify setup — plan selection, theme, products, payments, shipping, launch. | 🔶 Beta |
+| [shopify-theme-optimization](./shopify-theme-optimization/) | Theme speed and UX optimization — Core Web Vitals, Liquid code, image loading, mobile responsiveness. | 🔶 Beta |
+| [shopify-app-recommendations](./shopify-app-recommendations/) | App stack advisor — essential apps by business stage, cost optimization, performance impact analysis. | 🔶 Beta |
+| [shopify-dropshipping](./shopify-dropshipping/) | Dropshipping setup and scaling — supplier integration, automation, pricing strategy, customer experience. | 🔶 Beta |
+| [shopify-email-flows](./shopify-email-flows/) | Email automation flows — welcome series, abandoned cart, post-purchase, win-back, browse abandonment. | 🔶 Beta |
+| [shopify-upsell-cross-sell](./shopify-upsell-cross-sell/) | Upsell and cross-sell strategy — product recommendations, cart upsells, post-purchase offers, bundles. | 🔶 Beta |
+| [shopify-checkout-customization](./shopify-checkout-customization/) | Checkout optimization — Checkout Extensibility, custom fields, express payments, trust elements. | 🔶 Beta |
+| [shopify-inventory-management](./shopify-inventory-management/) | Multi-location inventory — transfers, low stock alerts, demand forecasting, safety stock, ABC analysis. | 🔶 Beta |
+| [shopify-subscription-setup](./shopify-subscription-setup/) | Subscription program setup — recurring billing, frequency options, churn reduction, lifetime value. | 🔶 Beta |
+| [shopify-wholesale-channel](./shopify-wholesale-channel/) | B2B/wholesale setup — wholesale pricing, minimum orders, custom catalogs, net payment terms. | 🔶 Beta |
+| [shopify-international](./shopify-international/) | Shopify Markets — multi-currency, translation, duties/taxes, localized pricing, market-specific content. | 🔶 Beta |
+| [shopify-migration](./shopify-migration/) | Platform migration to Shopify — from WooCommerce, Magento, BigCommerce, data transfer, URL redirects. | 🔶 Beta |
+| [shopify-blog-strategy](./shopify-blog-strategy/) | Content marketing via Shopify blog — SEO content, product education, buying guides, internal linking. | 🔶 Beta |
+| [shopify-loyalty-program](./shopify-loyalty-program/) | Customer loyalty and rewards — points systems, VIP tiers, referral programs, app selection. | 🔶 Beta |
+| [shopify-product-photography-guide](./shopify-product-photography-guide/) | DIY product photography — setup, lighting, backgrounds, editing, lifestyle shots, 360 views. | 🔶 Beta |
+| [shopify-cart-abandonment](./shopify-cart-abandonment/) | Cart abandonment recovery — email sequences, SMS, retargeting, exit intent, checkout friction audit. | 🔶 Beta |
+| [shopify-facebook-instagram-shop](./shopify-facebook-instagram-shop/) | Social selling setup — Facebook Shop, Instagram Shopping, product tagging, social checkout. | 🔶 Beta |
+| [shopify-google-channel](./shopify-google-channel/) | Google integration — Shopping feed, Performance Max, free listings, Merchant Center optimization. | 🔶 Beta |
+| [shopify-landing-page-builder](./shopify-landing-page-builder/) | High-converting landing pages — campaign pages, collection pages, seasonal promos, A/B testing. | 🔶 Beta |
+| [shopify-tax-compliance](./shopify-tax-compliance/) | Tax setup and compliance — sales tax, VAT, duty collection, tax-exempt customers, reporting. | 🔶 Beta |
+| [shopify-speed-optimization](./shopify-speed-optimization/) | Store speed audit — lazy loading, image compression, app bloat removal, theme code optimization. | 🔶 Beta |
 | [tiktok-live-selling](./tiktok-live-selling/) | TikTok live selling — session planning, engagement, product pinning, GPM. | 🔶 Beta |
 | [ebay-seller-tools](./ebay-seller-tools/) | eBay seller tools — listing, repricing, analytics, inventory, shipping tools. | 🔶 Beta |
 | [walmart-seller-tools](./walmart-seller-tools/) | Walmart tools — product research, listing optimization, Connect ads, analytics. | 🔶 Beta |
