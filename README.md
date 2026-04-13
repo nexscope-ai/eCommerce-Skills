@@ -195,6 +195,26 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [shopify-landing-page-builder](./shopify-landing-page-builder/) | High-converting landing pages — campaign pages, collection pages, seasonal promos, A/B testing. | 🔶 Beta |
 | [shopify-tax-compliance](./shopify-tax-compliance/) | Tax setup and compliance — sales tax, VAT, duty collection, tax-exempt customers, reporting. | 🔶 Beta |
 | [shopify-speed-optimization](./shopify-speed-optimization/) | Store speed audit — lazy loading, image compression, app bloat removal, theme code optimization. | 🔶 Beta |
+| [tiktok-shop-listing-optimization](./tiktok-shop-listing-optimization/) | Product listing optimization — titles, descriptions, images, video, attributes for TikTok search. | 🔶 Beta |
+| [tiktok-shop-affiliate-program](./tiktok-shop-affiliate-program/) | Affiliate collaboration — commission structure, creator selection, sample management, performance tracking. | 🔶 Beta |
+| [tiktok-shop-ads](./tiktok-shop-ads/) | TikTok Shop advertising — Product Shopping Ads, Video Shopping Ads, Live Shopping Ads, bidding strategy. | 🔶 Beta |
+| [tiktok-shop-content-strategy](./tiktok-shop-content-strategy/) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | 🔶 Beta |
+| [tiktok-shop-fulfillment](./tiktok-shop-fulfillment/) | Fulfillment setup — Fulfilled by TikTok, self-fulfillment, shipping templates, return policies. | 🔶 Beta |
+| [tiktok-shop-trending-products](./tiktok-shop-trending-products/) | Trending product discovery — viral product analysis, category trends, seasonal opportunities. | 🔶 Beta |
+| [tiktok-creator-marketplace](./tiktok-creator-marketplace/) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | 🔶 Beta |
+| [tiktok-shop-product-research](./tiktok-shop-product-research/) | Product research for TikTok Shop — viral potential scoring, creator demand, category analysis. | 🔶 Beta |
+| [tiktok-shop-creator-management](./tiktok-shop-creator-management/) | Creator relationship management — recruitment, briefing, content approval, commission optimization. | 🔶 Beta |
+| [tiktok-shop-shipping](./tiktok-shop-shipping/) | TikTok Shop shipping setup — carrier selection, shipping templates, delivery expectations. | 🔶 Beta |
+| [tiktok-shop-returns](./tiktok-shop-returns/) | Return policy and process — TikTok Shop policies, return rate reduction, customer communication. | 🔶 Beta |
+| [tiktok-shop-promotions](./tiktok-shop-promotions/) | TikTok Shop deals — Flash Deals, vouchers, free shipping, bundle deals, promotion planning. | 🔶 Beta |
+| [tiktok-shop-reviews](./tiktok-shop-reviews/) | Review strategy — encouraging reviews, responding, leveraging UGC, social proof. | 🔶 Beta |
+| [tiktok-shop-pricing](./tiktok-shop-pricing/) | Pricing strategy — competitive pricing, commission impact, bundling, discount psychology. | 🔶 Beta |
+| [tiktok-shop-customer-service](./tiktok-shop-customer-service/) | Customer service — response time, dispute resolution, auto-replies, buyer satisfaction. | 🔶 Beta |
+| [tiktok-shop-compliance](./tiktok-shop-compliance/) | Policies and compliance — restricted products, intellectual property, content guidelines. | 🔶 Beta |
+| [tiktok-shop-cross-border](./tiktok-shop-cross-border/) | Cross-border selling — market selection, logistics, localization, compliance. | 🔶 Beta |
+| [tiktok-shop-inventory](./tiktok-shop-inventory/) | Inventory management — demand forecasting, viral stock planning, FBT optimization. | 🔶 Beta |
+| [tiktok-shop-branding](./tiktok-shop-branding/) | Brand building on TikTok — brand identity, content pillars, community engagement. | 🔶 Beta |
+| [tiktok-shop-conversion](./tiktok-shop-conversion/) | Conversion optimization — product detail pages, video hooks, urgency tactics, checkout flow. | 🔶 Beta |
 | [tiktok-live-selling](./tiktok-live-selling/) | TikTok live selling — session planning, engagement, product pinning, GPM. | 🔶 Beta |
 | [ebay-seller-tools](./ebay-seller-tools/) | eBay seller tools — listing, repricing, analytics, inventory, shipping tools. | 🔶 Beta |
 | [walmart-seller-tools](./walmart-seller-tools/) | Walmart tools — product research, listing optimization, Connect ads, analytics. | 🔶 Beta |
