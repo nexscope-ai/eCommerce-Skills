@@ -216,6 +216,26 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [tiktok-shop-branding](./tiktok-shop-branding/) | Brand building on TikTok — brand identity, content pillars, community engagement. | 🔶 Beta |
 | [tiktok-shop-conversion](./tiktok-shop-conversion/) | Conversion optimization — product detail pages, video hooks, urgency tactics, checkout flow. | 🔶 Beta |
 | [tiktok-live-selling](./tiktok-live-selling/) | TikTok live selling — session planning, engagement, product pinning, GPM. | 🔶 Beta |
+| [etsy-keyword-research](./etsy-keyword-research/) | Etsy search optimization — long-tail keywords, tag research, competitor analysis, seasonal trends. | 🔶 Beta |
+| [etsy-shop-setup](./etsy-shop-setup/) | Etsy shop launch guide — policies, branding, first listings, SEO foundation, payment setup. | 🔶 Beta |
+| [etsy-advertising](./etsy-advertising/) | Etsy Ads strategy — budget allocation, bid management, promoted listings, offsite ads analysis. | 🔶 Beta |
+| [etsy-pricing-strategy](./etsy-pricing-strategy/) | Etsy pricing — cost calculation, competitor pricing, perceived value, shipping integration, coupons. | 🔶 Beta |
+| [etsy-digital-products](./etsy-digital-products/) | Digital product creation — templates, printables, planners, digital art, delivery setup. | 🔶 Beta |
+| [etsy-print-on-demand](./etsy-print-on-demand/) | POD integration — Printful, Printify, mockups, niche selection, margin optimization. | 🔶 Beta |
+| [etsy-star-seller](./etsy-star-seller/) | Star Seller guide — response time, shipping tracking, 5-star ratings, maintaining status. | 🔶 Beta |
+| [etsy-shop-branding](./etsy-shop-branding/) | Shop branding — banner, logo, brand story, cohesive photography, packaging. | 🔶 Beta |
+| [etsy-offsite-ads](./etsy-offsite-ads/) | Offsite Ads analysis — when to opt out, ROI tracking, fee impact, attribution. | 🔶 Beta |
+| [etsy-seasonal-strategy](./etsy-seasonal-strategy/) | Seasonal selling — holiday prep, trending categories, listing refresh, inventory planning. | 🔶 Beta |
+| [etsy-review-strategy](./etsy-review-strategy/) | Review generation — thank you cards, follow-up messages, photo review incentives. | 🔶 Beta |
+| [etsy-listing-photography](./etsy-listing-photography/) | Product photography — composition, lighting, backgrounds, editing, lifestyle shots. | 🔶 Beta |
+| [etsy-seo-tags](./etsy-seo-tags/) | SEO tag optimization — 13-tag strategy, attribute optimization, search ranking factors. | 🔶 Beta |
+| [etsy-shipping-strategy](./etsy-shipping-strategy/) | Shipping strategy — free shipping vs markup, profiles, international, tracking. | 🔶 Beta |
+| [etsy-product-description](./etsy-product-description/) | Product description writing — keyword integration, benefit-focused copy, FAQ, formatting. | 🔶 Beta |
+| [etsy-competitor-analysis](./etsy-competitor-analysis/) | Competitor research — pricing comparison, bestseller analysis, differentiation strategy. | 🔶 Beta |
+| [etsy-shop-analytics](./etsy-shop-analytics/) | Shop analytics — traffic sources, conversion rates, search terms, top listings. | 🔶 Beta |
+| [etsy-social-media-marketing](./etsy-social-media-marketing/) | Social media marketing — Pinterest, Instagram, TikTok to drive Etsy traffic. | 🔶 Beta |
+| [etsy-custom-orders](./etsy-custom-orders/) | Custom order management — communication templates, pricing, delivery, returns. | 🔶 Beta |
+| [etsy-multi-shop](./etsy-multi-shop/) | Multi-shop management — category separation, brand differentiation, efficiency. | 🔶 Beta |
 | [ebay-seller-tools](./ebay-seller-tools/) | eBay seller tools — listing, repricing, analytics, inventory, shipping tools. | 🔶 Beta |
 | [walmart-seller-tools](./walmart-seller-tools/) | Walmart tools — product research, listing optimization, Connect ads, analytics. | 🔶 Beta |
 
