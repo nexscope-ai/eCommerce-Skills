@@ -128,7 +128,7 @@ Works with **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, a
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify/) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok/) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
 | [ecommerce-personalization](./ecommerce-personalization/) | Personalization — recommendations, dynamic content, customer segmentation. | 🔶 Beta |
-| [cross-border-ecommerce](./cross-border-ecommerce/) | Cross-border expansion — market selection, logistics, payments, tax compliance. | 🔶 Beta |
+| [cross-border-ecommerce](./cross-border-ecommerce/) | Cross-border expansion — market scoring, logistics comparison, VAT/IOSS/GST compliance, payment localization, cultural adaptation. | ✅ Available |
 | [ecommerce-business-plan](./ecommerce-business-plan/) | E-commerce business plan — market analysis, financial projections, milestone roadmap. | 🔶 Beta |
 | [omnichannel-ecommerce](./omnichannel-ecommerce/) | Omnichannel strategy — channel selection, inventory sync, unified branding. | 🔶 Beta |
 | [multichannel-ecommerce](./multichannel-ecommerce/) | Multichannel management — inventory sync, order routing, listing syndication. | 🔶 Beta |
