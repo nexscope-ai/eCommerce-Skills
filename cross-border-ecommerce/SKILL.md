@@ -29,25 +29,15 @@ npx skills add nexscope-ai/eCommerce-Skills --skill cross-border-ecommerce -g
 
 ## Usage
 
-```
-I sell pet products on Shopify in the US doing $30K/month. I want to expand to 
-Canada and UK. What's the best approach for logistics, payments, and taxes?
-```
+Ask your AI assistant naturally. Example prompts:
 
-```
-We're an Amazon US seller doing $80K/month in kitchen gadgets. Which 3 countries 
-should we expand to next? Score them by market size, ease of entry, and competition.
-```
+> *"I sell pet products on Shopify in the US doing $30K/month. I want to expand to Canada and UK. What's the best approach for logistics, payments, and taxes?"*
 
-```
-I'm shipping consumer electronics from China to EU customers. Walk me through 
-VAT, IOSS registration, customs duties, and the cheapest fulfillment setup.
-```
+> *"We're an Amazon US seller doing $80K/month in kitchen gadgets. Which 3 countries should we expand to next? Score them by market size, ease of entry, and competition."*
 
-```
-My Etsy jewelry shop gets orders from Germany, Australia, and Japan but I'm 
-losing money on shipping and returns. Help me fix my cross-border operations.
-```
+> *"I'm shipping consumer electronics from China to EU customers. Walk me through VAT, IOSS registration, customs duties, and the cheapest fulfillment setup."*
+
+> *"My Etsy jewelry shop gets orders from Germany, Australia, and Japan but I'm losing money on shipping and returns. Help me fix my cross-border operations."*
 
 ## Capabilities
 
