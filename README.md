@@ -4,7 +4,7 @@
 
 # E-Commerce Skills by Nexscope
 
-**142 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
+**157 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
@@ -115,6 +115,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 |-------|-------------|--------|
 | [ecommerce-growth-strategy](./ecommerce-growth-strategy) | Strategic growth advisor — unit economics, Ansoff Matrix, 5 growth levers, 90-day roadmap. | ✅ Available |
 | [cross-border-ecommerce](./cross-border-ecommerce) | Cross-border expansion — market scoring, logistics comparison, VAT/IOSS/GST compliance, payment localization, cultural adaptation. | ✅ Available |
+| [tiktok-shop-cross-border](./tiktok-shop-cross-border) | Cross-border selling on TikTok Shop — market selection, logistics, localization, compliance. | 🔶 Beta |
 | [brand-protection-amazon](./brand-protection/brand-protection-amazon) | Amazon brand protection — hijackers, counterfeits, MAP violations, Brand Registry. | ✅ Available |
 | [brand-protection-ebay](./brand-protection/brand-protection-ebay) | eBay brand protection — unauthorized sellers, counterfeits, VeRO complaints. | ✅ Available |
 | [brand-protection-shopify](./brand-protection/brand-protection-shopify) | Shopify/DTC brand protection — counterfeit stores, DMCA takedowns, domain monitoring. | ✅ Available |
@@ -143,6 +144,10 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [ecommerce-branding](./ecommerce-branding) | E-commerce branding — positioning, messaging, visual identity, brand consistency. | 🔶 Beta |
 | [shopify-marketing](./shopify-marketing) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | 🔶 Beta |
 | [tiktok-influencer-marketing](./tiktok-influencer-marketing) | TikTok creator campaigns — discovery, outreach, ROI tracking, UGC strategy. | 🔶 Beta |
+| [tiktok-creator-marketplace](./tiktok-creator-marketplace) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | 🔶 Beta |
+| [tiktok-shop-content-strategy](./tiktok-shop-content-strategy) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | 🔶 Beta |
+| [tiktok-shop-branding](./tiktok-shop-branding) | Brand building on TikTok — brand identity, content pillars, community engagement, brand storytelling. | 🔶 Beta |
+| [tiktok-live-selling](./tiktok-live-selling) | TikTok Live selling strategy — show planning, engagement tactics, conversion optimization, audience building. | 🔶 Beta |
 | [influencer-outreach](./influencer-outreach) | Influencer outreach — discovery, templates, negotiation, contracts, relationship management. | 🔶 Beta |
 | [affiliate-marketing-strategy](./affiliate-marketing-strategy) | Affiliate program — setup, commission design, recruitment, tracking, scaling. | 🔶 Beta |
 | [ecommerce-video-marketing](./ecommerce-video-marketing) | Video marketing — product demos, UGC, short-form, Amazon video, video SEO. | 🔶 Beta |
@@ -210,6 +215,10 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [ecommerce-checkout-optimization](./ecommerce-checkout-optimization) | Checkout optimization — cart abandonment reduction, payment methods, friction analysis. | 🔶 Beta |
 | [shopify-analytics-guide](./shopify-analytics-guide) | Shopify analytics — dashboard metrics, cohort analysis, LTV, custom reports. | 🔶 Beta |
 | [tiktok-shop-analytics](./tiktok-shop-analytics) | TikTok Shop analytics — video, live, affiliate, ads performance, benchmarks. | 🔶 Beta |
+| [tiktok-shop-conversion](./tiktok-shop-conversion) | Conversion optimization — product detail pages, video hooks, urgency tactics, checkout flow. | 🔶 Beta |
+| [tiktok-shop-creator-management](./tiktok-shop-creator-management) | Creator relationship management — recruitment, briefing, content approval, commission optimization. | 🔶 Beta |
+| [tiktok-shop-customer-service](./tiktok-shop-customer-service) | Customer service on TikTok Shop — response time, dispute resolution, auto-replies, buyer satisfaction. | 🔶 Beta |
+| [tiktok-shop-inventory](./tiktok-shop-inventory) | Inventory management for TikTok Shop — demand forecasting, viral stock planning, FBT optimization. | 🔶 Beta |
 | [conversion-rate-optimization](./conversion-rate-optimization) | CRO — funnel analysis, heuristic evaluation, user behavior, testing roadmap. | 🔶 Beta |
 | [shopify-conversion-optimization](./shopify-conversion-optimization) | Shopify CRO — product pages, checkout, trust signals, mobile UX, page speed. | 🔶 Beta |
 | [ecommerce-ab-testing](./ecommerce-ab-testing) | E-commerce A/B testing — Amazon Experiments, Shopify, ads, email, methodology. | 🔶 Beta |
@@ -227,6 +236,8 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [dropshipping-product-research](./dropshipping-product-research) | Dropshipping product research — supplier reliability, margin analysis, marketing viability. | 🔶 Beta |
 | [market-gap-analysis](./market-gap-analysis) | Identify underserved market gaps — competitor blind spots, review pain points, search demand gaps. | 🔶 Beta |
 | [ebay-product-research](./ebay-product-research) | eBay product research — sell-through rates, ASP, competition, seasonal demand. | 🔶 Beta |
+| [tiktok-shop-product-research](./tiktok-shop-product-research) | Product research for TikTok Shop — viral potential scoring, creator demand, category analysis. | 🔶 Beta |
+| [tiktok-shop-trending-products](./tiktok-shop-trending-products) | Trending product discovery — viral product analysis, category trends, seasonal opportunities on TikTok. | 🔶 Beta |
 
 
 
@@ -262,6 +273,13 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [tiktok-shop-listing-optimization](./tiktok-shop-listing-optimization) | Product listing optimization — titles, descriptions, images, video, attributes for TikTok search. | 🔶 Beta |
 | [tiktok-shop-affiliate-program](./tiktok-shop-affiliate-program) | Affiliate collaboration — commission structure, creator selection, sample management, performance tracking. | 🔶 Beta |
 | [tiktok-shop-ads](./tiktok-shop-ads) | TikTok Shop advertising — Product Shopping Ads, Video Shopping Ads, Live Shopping Ads, bidding strategy. | 🔶 Beta |
+| [tiktok-shop-pricing](./tiktok-shop-pricing) | Pricing strategy for TikTok — competitive pricing, commission impact, bundling, discount psychology. | 🔶 Beta |
+| [tiktok-shop-promotions](./tiktok-shop-promotions) | TikTok Shop deals — Flash Deals, vouchers, free shipping, bundle deals, promotion planning. | 🔶 Beta |
+| [tiktok-shop-fulfillment](./tiktok-shop-fulfillment) | Fulfillment setup — Fulfilled by TikTok, self-fulfillment, shipping templates, return policies. | 🔶 Beta |
+| [tiktok-shop-shipping](./tiktok-shop-shipping) | TikTok Shop shipping setup — carrier selection, shipping templates, delivery expectations. | 🔶 Beta |
+| [tiktok-shop-returns](./tiktok-shop-returns) | Return policy and process — TikTok Shop policies, return rate reduction, customer communication. | 🔶 Beta |
+| [tiktok-shop-reviews](./tiktok-shop-reviews) | Review strategy for TikTok Shop — encouraging reviews, responding, leveraging UGC, social proof. | 🔶 Beta |
+| [tiktok-shop-compliance](./tiktok-shop-compliance) | TikTok Shop policies and compliance — restricted products, intellectual property, content guidelines. | 🔶 Beta |
 
 
 
