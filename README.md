@@ -143,7 +143,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [ecommerce-social-media-marketing](./ecommerce-social-media-marketing) | Social media marketing — content calendars, platform strategy, social commerce. | 🔶 Beta |
 | [ecommerce-branding](./ecommerce-branding) | E-commerce branding — positioning, messaging, visual identity, brand consistency. | 🔶 Beta |
 | [shopify-marketing](./shopify-marketing) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | 🔶 Beta |
-| [tiktok-influencer-marketing](./tiktok-influencer-marketing) | TikTok creator campaigns — discovery, outreach, ROI tracking, UGC strategy. | 🔶 Beta |
+| [tiktok-influencer-marketing](./tiktok-influencer-marketing) | TikTok creator campaigns — discovery, outreach, ROI tracking, UGC strategy. | ✅ Available |
 | [tiktok-creator-marketplace](./tiktok-creator-marketplace) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | 🔶 Beta |
 | [tiktok-shop-content-strategy](./tiktok-shop-content-strategy) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | 🔶 Beta |
 | [tiktok-shop-branding](./tiktok-shop-branding) | Brand building on TikTok — brand identity, content pillars, community engagement, brand storytelling. | 🔶 Beta |
@@ -214,7 +214,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [ecommerce-landing-page](./ecommerce-landing-page) | Landing page audit — CTA, trust signals, copy optimization, A/B testing. | 🔶 Beta |
 | [ecommerce-checkout-optimization](./ecommerce-checkout-optimization) | Checkout optimization — cart abandonment reduction, payment methods, friction analysis. | 🔶 Beta |
 | [shopify-analytics-guide](./shopify-analytics-guide) | Shopify analytics — dashboard metrics, cohort analysis, LTV, custom reports. | 🔶 Beta |
-| [tiktok-shop-analytics](./tiktok-shop-analytics) | TikTok Shop analytics — video, live, affiliate, ads performance, benchmarks. | 🔶 Beta |
+| [tiktok-shop-analytics](./tiktok-shop-analytics) | TikTok Shop analytics — video, live, affiliate, ads performance, benchmarks. | ✅ Available |
 | [tiktok-shop-conversion](./tiktok-shop-conversion) | Conversion optimization — product detail pages, video hooks, urgency tactics, checkout flow. | 🔶 Beta |
 | [tiktok-shop-creator-management](./tiktok-shop-creator-management) | Creator relationship management — recruitment, briefing, content approval, commission optimization. | 🔶 Beta |
 | [tiktok-shop-customer-service](./tiktok-shop-customer-service) | Customer service on TikTok Shop — response time, dispute resolution, auto-replies, buyer satisfaction. | 🔶 Beta |
@@ -247,7 +247,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 |-------|-------------|--------|
 | [etsy-seller-guide](./etsy-seller-guide) | Complete Etsy selling guide — shop setup, SEO, pricing, Star Seller, advertising. | 🔶 Beta |
 | [ebay-seller-guide](./ebay-seller-guide) | Complete eBay guide — auction/BIN, Cassini SEO, Top Rated Seller, shipping. | 🔶 Beta |
-| [tiktok-shop-seller-guide](./tiktok-shop-seller-guide) | TikTok Shop guide — listing, content strategy, live selling, creator affiliates. | 🔶 Beta |
+| [tiktok-shop-seller-guide](./tiktok-shop-seller-guide) | TikTok Shop guide — listing, content strategy, live selling, creator affiliates. | ✅ Available |
 | [walmart-seller-guide](./walmart-seller-guide) | Walmart Marketplace guide — application, listing, WFS, Connect ads, Pro Seller. | 🔶 Beta |
 | [shopify-store-setup](./shopify-store-setup) | Shopify setup — plan selection, theme, products, payments, shipping, launch. | 🔶 Beta |
 | [shopify-theme-optimization](./shopify-theme-optimization) | Theme speed and UX optimization — Core Web Vitals, Liquid code, image loading, mobile responsiveness. | 🔶 Beta |
@@ -270,8 +270,8 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [shopify-landing-page-builder](./shopify-landing-page-builder) | High-converting landing pages — campaign pages, collection pages, seasonal promos, A/B testing. | 🔶 Beta |
 | [shopify-tax-compliance](./shopify-tax-compliance) | Tax setup and compliance — sales tax, VAT, duty collection, tax-exempt customers, reporting. | 🔶 Beta |
 | [shopify-speed-optimization](./shopify-speed-optimization) | Store speed audit — lazy loading, image compression, app bloat removal, theme code optimization. | 🔶 Beta |
-| [tiktok-shop-listing-optimization](./tiktok-shop-listing-optimization) | Product listing optimization — titles, descriptions, images, video, attributes for TikTok search. | 🔶 Beta |
-| [tiktok-shop-affiliate-program](./tiktok-shop-affiliate-program) | Affiliate collaboration — commission structure, creator selection, sample management, performance tracking. | 🔶 Beta |
+| [tiktok-shop-listing-optimization](./tiktok-shop-listing-optimization) | Product listing optimization — titles, descriptions, images, video, attributes for TikTok search. | ✅ Available |
+| [tiktok-shop-affiliate-program](./tiktok-shop-affiliate-program) | Affiliate collaboration — commission structure, creator selection, sample management, performance tracking. | ✅ Available |
 | [tiktok-shop-ads](./tiktok-shop-ads) | TikTok Shop advertising — Product Shopping Ads, Video Shopping Ads, Live Shopping Ads, bidding strategy. | 🔶 Beta |
 | [tiktok-shop-pricing](./tiktok-shop-pricing) | Pricing strategy for TikTok — competitive pricing, commission impact, bundling, discount psychology. | 🔶 Beta |
 | [tiktok-shop-promotions](./tiktok-shop-promotions) | TikTok Shop deals — Flash Deals, vouchers, free shipping, bundle deals, promotion planning. | 🔶 Beta |
