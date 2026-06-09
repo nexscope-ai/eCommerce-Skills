@@ -124,7 +124,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [product-differentiation-ebay](./product-differentiation/product-differentiation-ebay) | eBay differentiation — competitor analysis, listing gaps, unique selling points. | ✅ Available |
 | [product-differentiation-shopify](./product-differentiation/product-differentiation-shopify) | Shopify/DTC differentiation — competitor weaknesses, market positioning, brand strategy. | ✅ Available |
 | [product-differentiation-tiktok](./product-differentiation/product-differentiation-tiktok) | TikTok Shop differentiation — viral product analysis, trend gaps, content angles. | ✅ Available |
-| [tiktok-shop-cross-border](./tiktok-shop-cross-border) | Cross-border selling on TikTok Shop — market selection, logistics, localization, compliance. | 🔶 Beta |
+| [tiktok-shop-cross-border](./tiktok-shop-cross-border) | Cross-border selling on TikTok Shop — market selection, logistics, localization, compliance. | ✅ Available |
 | [ecommerce-personalization](./ecommerce-personalization) | Personalization — recommendations, dynamic content, customer segmentation. | 🔶 Beta |
 | [ecommerce-business-plan](./ecommerce-business-plan) | E-commerce business plan — market analysis, financial projections, milestone roadmap. | 🔶 Beta |
 | [omnichannel-ecommerce](./omnichannel-ecommerce) | Omnichannel strategy — channel selection, inventory sync, unified branding. | 🔶 Beta |
@@ -140,13 +140,13 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [ecommerce-email-marketing-builder](./ecommerce-email-marketing-builder) | Email marketing campaign builder — flows, sequences, templates, automation strategies. | ✅ Available |
 | [ecommerce-content-marketing](./ecommerce-content-marketing) | Content marketing strategy — customer reviews, trends, competitor analysis, content calendars. | ✅ Available |
 | [tiktok-influencer-marketing](./tiktok-influencer-marketing) | TikTok creator campaigns — discovery, outreach, ROI tracking, UGC strategy. | ✅ Available |
+| [tiktok-creator-marketplace](./tiktok-creator-marketplace) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | ✅ Available |
+| [tiktok-shop-content-strategy](./tiktok-shop-content-strategy) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | ✅ Available |
+| [tiktok-shop-branding](./tiktok-shop-branding) | Brand building on TikTok — brand identity, content pillars, community engagement, brand storytelling. | ✅ Available |
 | [product-launch-strategy](./product-launch-strategy) | Product launch playbook — pre-launch, launch day, post-launch for Amazon and Shopify. | 🔶 Beta |
 | [ecommerce-social-media-marketing](./ecommerce-social-media-marketing) | Social media marketing — content calendars, platform strategy, social commerce. | 🔶 Beta |
 | [ecommerce-branding](./ecommerce-branding) | E-commerce branding — positioning, messaging, visual identity, brand consistency. | 🔶 Beta |
 | [shopify-marketing](./shopify-marketing) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | 🔶 Beta |
-| [tiktok-creator-marketplace](./tiktok-creator-marketplace) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | 🔶 Beta |
-| [tiktok-shop-content-strategy](./tiktok-shop-content-strategy) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | 🔶 Beta |
-| [tiktok-shop-branding](./tiktok-shop-branding) | Brand building on TikTok — brand identity, content pillars, community engagement, brand storytelling. | 🔶 Beta |
 | [tiktok-live-selling](./tiktok-live-selling) | TikTok Live selling strategy — show planning, engagement tactics, conversion optimization, audience building. | 🔶 Beta |
 | [influencer-outreach](./influencer-outreach) | Influencer outreach — discovery, templates, negotiation, contracts, relationship management. | 🔶 Beta |
 | [affiliate-marketing-strategy](./affiliate-marketing-strategy) | Affiliate program — setup, commission design, recruitment, tracking, scaling. | 🔶 Beta |
@@ -248,6 +248,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [tiktok-shop-seller-guide](./tiktok-shop-seller-guide) | TikTok Shop guide — listing, content strategy, live selling, creator affiliates. | ✅ Available |
 | [tiktok-shop-listing-optimization](./tiktok-shop-listing-optimization) | Product listing optimization — titles, descriptions, images, video, attributes for TikTok search. | ✅ Available |
 | [tiktok-shop-affiliate-program](./tiktok-shop-affiliate-program) | Affiliate collaboration — commission structure, creator selection, sample management, performance tracking. | ✅ Available |
+| [tiktok-shop-ads](./tiktok-shop-ads) | TikTok Shop advertising — Product Shopping Ads, Video Shopping Ads, Live Shopping Ads, bidding strategy. | ✅ Available |
 | [etsy-seller-guide](./etsy-seller-guide) | Complete Etsy selling guide — shop setup, SEO, pricing, Star Seller, advertising. | 🔶 Beta |
 | [ebay-seller-guide](./ebay-seller-guide) | Complete eBay guide — auction/BIN, Cassini SEO, Top Rated Seller, shipping. | 🔶 Beta |
 | [walmart-seller-guide](./walmart-seller-guide) | Walmart Marketplace guide — application, listing, WFS, Connect ads, Pro Seller. | 🔶 Beta |
@@ -272,7 +273,6 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [shopify-landing-page-builder](./shopify-landing-page-builder) | High-converting landing pages — campaign pages, collection pages, seasonal promos, A/B testing. | 🔶 Beta |
 | [shopify-tax-compliance](./shopify-tax-compliance) | Tax setup and compliance — sales tax, VAT, duty collection, tax-exempt customers, reporting. | 🔶 Beta |
 | [shopify-speed-optimization](./shopify-speed-optimization) | Store speed audit — lazy loading, image compression, app bloat removal, theme code optimization. | 🔶 Beta |
-| [tiktok-shop-ads](./tiktok-shop-ads) | TikTok Shop advertising — Product Shopping Ads, Video Shopping Ads, Live Shopping Ads, bidding strategy. | 🔶 Beta |
 | [tiktok-shop-pricing](./tiktok-shop-pricing) | Pricing strategy for TikTok — competitive pricing, commission impact, bundling, discount psychology. | 🔶 Beta |
 | [tiktok-shop-promotions](./tiktok-shop-promotions) | TikTok Shop deals — Flash Deals, vouchers, free shipping, bundle deals, promotion planning. | 🔶 Beta |
 | [tiktok-shop-fulfillment](./tiktok-shop-fulfillment) | Fulfillment setup — Fulfilled by TikTok, self-fulfillment, shipping templates, return policies. | 🔶 Beta |
