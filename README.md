@@ -143,10 +143,10 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [tiktok-creator-marketplace](./tiktok-creator-marketplace) | Creator Marketplace strategy — finding creators, negotiation, campaign management, performance metrics. | ✅ Available |
 | [tiktok-shop-content-strategy](./tiktok-shop-content-strategy) | Content creation for TikTok Shop — trending formats, hooks, product showcasing, hashtag strategy. | ✅ Available |
 | [tiktok-shop-branding](./tiktok-shop-branding) | Brand building on TikTok — brand identity, content pillars, community engagement, brand storytelling. | ✅ Available |
+| [ecommerce-social-media-marketing](./ecommerce-social-media-marketing) | Social media marketing — content calendars, platform strategy, social commerce. | ✅ Available |
+| [shopify-marketing](./shopify-marketing) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | ✅ Available |
 | [product-launch-strategy](./product-launch-strategy) | Product launch playbook — pre-launch, launch day, post-launch for Amazon and Shopify. | 🔶 Beta |
-| [ecommerce-social-media-marketing](./ecommerce-social-media-marketing) | Social media marketing — content calendars, platform strategy, social commerce. | 🔶 Beta |
 | [ecommerce-branding](./ecommerce-branding) | E-commerce branding — positioning, messaging, visual identity, brand consistency. | 🔶 Beta |
-| [shopify-marketing](./shopify-marketing) | Shopify marketing — SEO, email, paid ads, CRO, retention for DTC brands. | 🔶 Beta |
 | [tiktok-live-selling](./tiktok-live-selling) | TikTok Live selling strategy — show planning, engagement tactics, conversion optimization, audience building. | 🔶 Beta |
 | [influencer-outreach](./influencer-outreach) | Influencer outreach — discovery, templates, negotiation, contracts, relationship management. | 🔶 Beta |
 | [affiliate-marketing-strategy](./affiliate-marketing-strategy) | Affiliate program — setup, commission design, recruitment, tracking, scaling. | 🔶 Beta |
