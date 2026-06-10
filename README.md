@@ -4,11 +4,11 @@
 
 # E-Commerce Skills by Nexscope
 
-**157 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
+**158 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
-![Skill Count](https://img.shields.io/badge/skills-142-10b981?style=flat)
+![Skill Count](https://img.shields.io/badge/skills-158-10b981?style=flat)
 ![Downloads](https://img.shields.io/badge/downloads-16K+-orange?style=flat)
 [![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/t7dfcMTmkH)
 
@@ -225,6 +225,14 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [shopify-ab-testing](./shopify-ab-testing) | Shopify A/B testing — hypothesis, product page tests, statistical significance. | 🔶 Beta |
 | [ecommerce-customer-retention](./ecommerce-customer-retention) | Customer retention — email flows, loyalty, RFM segmentation, win-back, LTV. | 🔶 Beta |
 | [ecommerce-subscription-model](./ecommerce-subscription-model) | Subscription models — replenishment, curation, pricing tiers, churn reduction. | 🔶 Beta |
+
+
+
+### 🏭 Skill Development (1 skill)
+
+| Skill | Description | Status |
+|-------|-------------|--------|
+| [skill-producer](./skill-producer) | Systematic skill enhancement workflow — transform Beta skills to Available standard with quality assurance. | ✅ Available |
 
 
 
