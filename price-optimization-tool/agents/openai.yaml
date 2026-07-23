@@ -1,0 +1,4 @@
+interface:
+  display_name: "Price Optimization Tool"
+  short_description: "Evaluate prices with economics and controlled tests"
+  default_prompt: "Use $price-optimization-tool to evaluate price candidates and design an evidence-bounded test plan."
