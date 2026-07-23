@@ -189,7 +189,7 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [review-monitoring](./review-monitoring) | Review monitoring — negative review alerts, competitor tracking, response workflows. | 🔶 Beta |
 | [sales-tracking-tool](./sales-tracking-tool) | Sales performance tracking — KPI dashboards, trend analysis, anomaly detection. | 🔶 Beta |
 | [competitor-price-tracker](./competitor-price-tracker) | Competitor price monitoring — change alerts, promotion detection, price war response. | 🔶 Beta |
-| [social-media-monitor](./social-media-monitor) | Social media monitoring — mentions, sentiment, competitor activity across platforms. | 🔶 Beta |
+| [social-media-monitor](./social-media-monitor) | Social media monitoring across platforms, with optional TweetClaw setup for OpenClaw X/Twitter evidence. | 🔶 Beta |
 
 
 
