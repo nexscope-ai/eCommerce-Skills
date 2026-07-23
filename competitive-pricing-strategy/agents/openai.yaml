@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Pricing Strategy"
+  short_description: "Build evidence-based ecommerce price architecture"
+  default_prompt: "Use $competitive-pricing-strategy to build a margin-safe competitive pricing plan for my products."
