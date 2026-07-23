@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dynamic Pricing for Ecommerce"
+  short_description: "Design guardrailed ecommerce repricing systems"
+  default_prompt: "Use $dynamic-pricing-ecommerce to design a controlled repricing system with safe bounds, approvals, and rollback."
