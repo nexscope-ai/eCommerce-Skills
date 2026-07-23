@@ -103,9 +103,9 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 | [profit-margin-calculator-shopify](./profit-margin-calculator/profit-margin-calculator-shopify) | Shopify/DTC profit calculator — ad spend, CAC, payment processing, 3PL, LTV/CAC analysis. | ✅ Available |
 | [profit-margin-calculator-tiktok](./profit-margin-calculator/profit-margin-calculator-tiktok) | TikTok Shop profit calculator — affiliate commissions, platform fees, FBT, return rates. | ✅ Available |
 | [profit-margin-calculator-walmart](./profit-margin-calculator/profit-margin-calculator-walmart) | Walmart profit calculator — WFS fulfillment, storage fees, referral fees, comparison. | ✅ Available |
-| [competitive-pricing-strategy](./competitive-pricing-strategy) | Competitive pricing — analysis, psychological pricing, MAP compliance, repricing. | 🔶 Beta |
-| [dynamic-pricing-ecommerce](./dynamic-pricing-ecommerce) | Dynamic pricing — demand-based, competitor-responsive, algorithmic repricing models. | 🔶 Beta |
-| [price-optimization-tool](./price-optimization-tool) | Price optimization — elasticity, A/B testing, margin modeling, competitor benchmarking. | 🔶 Beta |
+| [competitive-pricing-strategy](./competitive-pricing-strategy) | Price architecture and competitor positioning — normalized offer maps, contribution floors, response rules, and channel rollout. | ✅ Available |
+| [dynamic-pricing-ecommerce](./dynamic-pricing-ecommerce) | Guardrailed repricing systems — signals, floors and ceilings, rule matrices, simulations, approvals, and rollback. | ✅ Available |
+| [price-optimization-tool](./price-optimization-tool) | Evidence-bounded price decisions — unit economics, elasticity, candidate scenarios, experiment design, and rollout gates. | ✅ Available |
 
 
 
