@@ -4,11 +4,11 @@
 
 # E-Commerce Skills by Nexscope
 
-**157 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
+**159 free AI agent skills for Amazon, Shopify, eBay, Etsy, TikTok Shop & Walmart sellers.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social)](https://github.com/nexscope-ai/eCommerce-Skills)
-![Skill Count](https://img.shields.io/badge/skills-157-10b981?style=flat)
+![Skill Count](https://img.shields.io/badge/skills-159-10b981?style=flat)
 ![Downloads](https://img.shields.io/badge/downloads-16K+-orange?style=flat)
 [![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/t7dfcMTmkH)
 
@@ -20,7 +20,7 @@ Works with **OpenClaw** · **Claude Code** · **Cursor** · **Windsurf** · **Co
 
 ## Quick Start
 
-Install all 142 skills at once:
+Install all 144 skills at once:
 
 ```bash
 npx skills add nexscope-ai/eCommerce-Skills -g
@@ -161,6 +161,8 @@ SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, S
 |-------|-------------|--------|
 | [product-description-generator](./product-description-generator) | Product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop. | ✅ Available |
 | [etsy-seo](./etsy-seo) | Etsy SEO analyzer — title optimization, tag analysis, description scoring, SEO scoring. | ✅ Available |
+| [etsy-live-search](./etsy-live-search) | Live Etsy search results — price, rating, reviews, badges, ad flag, rank, shop for any keyword. Needs Apify token. | ✅ Available |
+| [etsy-shop-velocity](./etsy-shop-velocity) | Etsy shop sales velocity — daily counters, 30-day deltas, breakout flags for any shop. Needs Apify token. | ✅ Available |
 | [product-title-optimization](./product-title-optimization) | Product title optimization — platform-specific rules, keyword placement, CTR improvement. | 🔶 Beta |
 | [walmart-listing-optimization](./walmart-listing-optimization) | Walmart listing optimization — Content Quality Score, search, rich media, attributes. | 🔶 Beta |
 | [product-page-seo](./product-page-seo) | Product page SEO — structured data, page speed, mobile optimization, content enrichment. | 🔶 Beta |
