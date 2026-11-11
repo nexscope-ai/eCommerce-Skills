@@ -13,6 +13,8 @@
 
 Works with **OpenClaw** · **Claude Code** · **Cursor** · **Windsurf** · **Codex** · any agent that supports the Skills format
 
+[Explore Nexscope MCP tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_readme_header_mcp) · [Explore Nexscope APIs →](https://www.nexscope.ai/api-docs?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_readme_header_api)
+
 </div>
 
 ---
@@ -55,23 +57,35 @@ Install a skill, ask your AI assistant a question about your store, and get expe
 
 ## ⭐ Most Popular
 
-🏆 **[E-Commerce Growth Strategy](./ecommerce-growth-strategy)**
+🏆 **E-Commerce Growth Strategy**
 Diagnoses your business health using unit economics (CAC, LTV, AOV), identifies the #1 growth lever, and builds a 90-day roadmap.
 
-📦 **[Cross-Border E-Commerce](./cross-border-ecommerce)**
+[Explore ecommerce MCP tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-growth-strategy_mcp) · [Explore ecommerce APIs →](https://www.nexscope.ai/api-docs?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-growth-strategy_api)
+
+📦 **Cross-Border E-Commerce**
 Scores 15+ international markets, handles VAT/IOSS/GST compliance, plans logistics and localization strategy.
 
-📣 **[Marketing Strategy Builder](./ecommerce-marketing-strategy-builder)**
+[Explore cross-platform MCP tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_cross-border-ecommerce_mcp) · [Explore cross-platform data APIs →](https://www.nexscope.ai/api-docs?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_cross-border-ecommerce_api)
+
+📣 **Marketing Strategy Builder**
 Full-stack omnichannel marketing — paid ads, SEO, email/SMS, content, social media, and influencer partnerships.
 
-💰 **[Amazon Profit Calculator](./profit-margin-calculator/profit-margin-calculator-amazon)**
+[Explore marketing and SEO MCP tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-marketing-strategy-builder_mcp) · [Explore marketing and SEO APIs →](https://www.nexscope.ai/api-docs?tab=marketing&co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-marketing-strategy-builder_api)
+
+💰 **Amazon Profit Calculator**
 Complete FBA fee breakdown — referral fees, fulfillment, storage costs, break-even analysis, pricing recommendations.
 
-📢 **[PPC Strategy Planner](./ecommerce-ppc-strategy-planner)**
+[Explore ecommerce MCP data tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_profit-margin-calculator-amazon_mcp) · [Explore ecommerce data APIs →](https://www.nexscope.ai/api-docs?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_profit-margin-calculator-amazon_api)
+
+📢 **PPC Strategy Planner**
 Cross-platform PPC strategy for Google, Meta & TikTok with ROAS targets and budget allocation.
 
-📝 **[Product Description Generator](./product-description-generator)**
+[Explore advertising MCP tools →](https://www.nexscope.ai/mcp?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-ppc-strategy-planner_mcp) · [Explore marketing APIs →](https://www.nexscope.ai/api-docs?tab=marketing&co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_ecommerce-ppc-strategy-planner_api)
+
+📝 **Product Description Generator**
 SEO-optimized product descriptions for any platform — Amazon, eBay, Walmart, Shopify, Etsy, TikTok Shop.
+
+[Generate product descriptions with MCP →](https://www.nexscope.ai/mcp-map/product-description-generator?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_product-description-generator_mcp) · [View the Product Description Generator API →](https://www.nexscope.ai/api-docs/product-description-generator?co-from=github&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=ecommerce-skills_popular_product-description-generator_api)
 
 > **🔍 Need Amazon-specific tools?** See [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) — 52 skills for FBA, PPC, listing optimization, keyword research & more.
 
