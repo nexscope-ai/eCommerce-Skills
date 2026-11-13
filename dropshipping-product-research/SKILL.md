@@ -46,6 +46,26 @@ Help me find dropshipping products in the pet accessories niche. Budget is $2000
 
 **Step 4:** Deliver structured, actionable output with specific recommendations, not vague advice.
 
+
+## Risk Gates Before Recommendation
+
+Use these gates before calling a dropshipping product viable. A product can have strong demand and still be a bad recommendation if one gate fails.
+
+| Gate | Pass Signal | Hold / Reject Signal |
+| --- | --- | --- |
+| Shipping promise | Delivery time and tracking match the channel's customer expectation | Long or unclear delivery time would create chargebacks or poor reviews |
+| Margin after ads | Gross margin survives product cost, shipping, platform fees, payment fees, refunds, and CAC | Profit depends on unrealistically cheap traffic or zero returns |
+| Return and damage risk | Product is low-fragility, easy to explain, and has manageable sizing/fit issues | High breakage, subjective quality, sizing disputes, or expensive returns |
+| Supplier evidence | Supplier has clear history, inventory, fulfillment process, and response quality | Supplier cannot confirm stock, processing time, packaging, or refund process |
+| Policy and compliance | Product avoids restricted claims, safety risk, IP risk, and platform policy issues | Health, safety, branded, counterfeit, battery, or regulated claims are unresolved |
+
+Decision rules:
+
+- Use **Proceed** only when all gates pass or have clear mitigation.
+- Use **Test First** when the product depends on one uncertain assumption that can be validated with a small ad or sample-order test.
+- Use **Reject** when shipping promise, policy risk, supplier reliability, or realistic margin fails.
+- Always include the single next validation action instead of only a score.
+
 ## Output Format
 
 - Start with a summary of findings
